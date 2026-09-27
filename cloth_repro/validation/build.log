@@ -1,0 +1,1504 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.39
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- The CXX compiler identification is MSVC 19.44.35228.0
+-- The C compiler identification is MSVC 19.44.35228.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Mitsuba v3.10.0 
+-- Mitsuba: targeting the native CPU architecture (specify MI_NATIVE_FLAGS to change this).
+-- Found Python: C:\Users\13243\Desktop\Blender\mitsuba_validation\.venv\Scripts\python.exe (found suitable version "3.12.14", minimum required is "3.8") found components: Interpreter Development.Module Development.SABIModule
+-- Looking for C++ include nanobind/nanobind.h
+-- Looking for C++ include nanobind/nanobind.h - not found
+-- MI_DEFAULT_VARIANTS: scalar_rgb;cuda_ad_rgb;llvm_ad_rgb
+-- Mitsuba: building the following variants:
+--  * cuda_ad_rgb
+--  * llvm_ad_rgb
+--  * scalar_rgb
+-- The ASM compiler identification is MSVC
+-- Found assembler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
+-- The ASM_MASM compiler identification is MSVC
+-- Found assembler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/ml64.exe
+-- Looking for a ASM_NASM compiler
+-- Looking for a ASM_NASM compiler - NOTFOUND
+-- Dr.Jit v1.6.0 dev1
+-- Dr.Jit: building the CUDA backend.
+-- Dr.Jit: building the LLVM backend.
+-- Dr.Jit: *not* building the Metal backend.
+-- Dr.Jit-Core: LLVM will be loaded dynamically at runtime.
+-- Dr.Jit-Core: CUDA will be loaded dynamically at runtime.
+-- Dr.Jit-Core: OptiX support enabled.
+-- Dr.Jit-Core: Metal GPU backend disabled.
+-- Dr.Jit: building the Python plugin.
+-- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.55.0.windows.5")
+-- MSVC detected
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of off64_t
+-- Check size of off64_t - failed
+-- Looking for fseeko
+-- Looking for fseeko - not found
+-- Looking for unistd.h
+-- Looking for unistd.h - not found
+-- Configure ILMBASE Version: 2.5.5 Lib API: 25.0.4
+-- Looking for include file ucontext.h
+-- Looking for include file ucontext.h - not found
+-- Configure OpenEXR Version: 2.5.5 Lib API: 25.0.4
+-- Performing Test OPENEXR_IMF_HAVE_SYSCONF_NPROCESSORS_ONLN
+-- Performing Test OPENEXR_IMF_HAVE_SYSCONF_NPROCESSORS_ONLN - Failed
+-- Performing Test OPENEXR_IMF_HAVE_GCC_INLINE_ASM_AVX
+-- Performing Test OPENEXR_IMF_HAVE_GCC_INLINE_ASM_AVX - Failed
+-- Found ZLIB: zlib
+-- Performing Test HAVE_LD_VERSION_SCRIPT
+-- Performing Test HAVE_LD_VERSION_SCRIPT - Failed
+-- Performing Test HAVE_SOLARIS_LD_VERSION_SCRIPT
+-- Performing Test HAVE_SOLARIS_LD_VERSION_SCRIPT - Failed
+-- Could not find an AWK-compatible program
+-- Using standard libconf header: C:/Users/13243/Desktop/Blender/mitsuba3/ext/libpng/scripts/pnglibconf.h.prebuilt
+-- CMAKE_BUILD_TYPE = Release
+-- VERSION = 3.1.4, BUILD = 20260927
+-- 64-bit build (x86_64)
+-- CMAKE_INSTALL_PREFIX = c:/mitsuba64
+-- CMAKE_INSTALL_BINDIR = bin (c:/mitsuba64/bin)
+-- CMAKE_INSTALL_DATAROOTDIR = share (c:/mitsuba64/share)
+-- CMAKE_INSTALL_DOCDIR = share/doc/mitsuba (c:/mitsuba64/share/doc/mitsuba)
+-- CMAKE_INSTALL_INCLUDEDIR = include (c:/mitsuba64/include)
+-- CMAKE_INSTALL_LIBDIR = lib (c:/mitsuba64/lib)
+-- Shared libraries enabled (ENABLE_SHARED = 1)
+-- Static libraries disabled (ENABLE_STATIC = 0)
+-- Arithmetic decoding support enabled (WITH_ARITH_DEC = 1)
+-- Arithmetic encoding support enabled (WITH_ARITH_ENC = 1)
+-- TurboJPEG API library disabled (WITH_TURBOJPEG = 0)
+-- TurboJPEG Java API disabled (WITH_JAVA = 0)
+-- Command-line tools disabled (WITH_TOOLS = 0)
+-- Regression tests disabled (WITH_TESTS = 0)
+-- Emulating libjpeg API/ABI v6.2 (WITH_JPEG7 = 0, WITH_JPEG8 = 0)
+-- libjpeg API shared library version = 62.4.0
+-- Compiler flags = /DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG
+-- Linker flags = /machine:x64 /INCREMENTAL:NO
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of unsigned long
+-- Check size of unsigned long - done
+-- Looking for include file intrin.h
+-- Looking for include file intrin.h - found
+-- Performing Test INLINE_WORKS
+-- Performing Test INLINE_WORKS - Success
+-- INLINE = __forceinline (FORCE_INLINE = 1)
+-- Performing Test HAVE_THREAD_LOCAL
+-- Performing Test HAVE_THREAD_LOCAL - Success
+-- THREAD_LOCAL = __declspec(thread)
+-- CMAKE_EXECUTABLE_SUFFIX = .exe
+CMake Warning at ext/libjpeg-turbo/simd/CMakeLists.txt:5 (message):
+  SIMD extensions disabled: could not find NASM compiler.  Performance will
+  suffer.
+Call Stack (most recent call first):
+  ext/libjpeg-turbo/simd/CMakeLists.txt:48 (simd_fail)
+
+
+-- Visual C++ run-time library for libjpeg API DLL: MultiThreadedDLL
+-- Struct-JIT: *not* building the Python plugin.
+-- Tests are disabled. Set FASTFLOAT_TEST to ON to run tests.
+-- Benchmarks are disabled. Set FASTFLOAT_BENCHMARKS to ON to build benchmarks (assumes C++17).
+-- Performing Test FASTFLOAT_COMPILER_SUPPORTS_PERMISSIVE
+-- Performing Test FASTFLOAT_COMPILER_SUPPORTS_PERMISSIVE - Success
+-- Mitsuba: using OptiX for GPU ray tracing.
+-- Mitsuba: using Embree for CPU ray tracing.
+-- Could NOT find Sphinx (missing: SPHINX_EXECUTABLE) 
+CMake Warning at CMakeLists.txt:487 (message):
+  
+
+  Created a default 'mitsuba.conf' configuration file.  You will probably
+  want to edit this file to specify the desired configurations before
+  starting to compile.
+
+
+-- Configuring done (12.8s)
+-- Generating done (0.6s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_POLICY_VERSION_MINIMUM
+
+
+-- Build files have been written to: C:/Users/13243/Desktop/Blender/mitsuba3/build
+[1/1256] Building CXX object ext\drjit\ext\drjit-core\ext\nanothread\CMakeFiles\nanothread.dir\src\park.cpp.obj
+[2/1256] Building CXX object ext\drjit\ext\drjit-core\ext\nanothread\CMakeFiles\nanothread.dir\src\queue.cpp.obj
+[3/1256] Building CXX object ext\drjit\ext\drjit-core\ext\nanothread\CMakeFiles\nanothread.dir\src\nanothread.cpp.obj
+[4/1256] Building CXX object ext\openexr\IlmBase\Iex\CMakeFiles\Iex.dir\IexThrowErrnoExc.cpp.obj
+[5/1256] Building CXX object ext\embree\common\sys\CMakeFiles\sys.dir\alloc.cpp.obj
+[6/1256] Building CXX object ext\embree\common\sys\CMakeFiles\sys.dir\sysinfo.cpp.obj
+[7/1256] Building CXX object ext\embree\common\tasking\CMakeFiles\tasking.dir\taskschedulerinternal.cpp.obj
+[8/1256] Building CXX object ext\openexr\IlmBase\Iex\CMakeFiles\Iex.dir\IexBaseExc.cpp.obj
+[9/1256] Linking CXX static library ext\embree\tasking.lib
+[10/1256] Linking CXX shared library Release\nanothread.dll
+[11/1256] Building CXX object ext\embree\common\sys\CMakeFiles\sys.dir\filename.cpp.obj
+[12/1256] Building CXX object ext\embree\common\sys\CMakeFiles\sys.dir\library.cpp.obj
+[13/1256] Building CXX object ext\embree\common\sys\CMakeFiles\sys.dir\regression.cpp.obj
+[14/1256] Embedding lz4_dict_object -> C:/Users/13243/Desktop/Blender/mitsuba3/build/ext/drjit/ext/drjit-core/resources/lz4_dicts.c
+[15/1256] Generating geometry/instance_intersector.cpp.sse42.cpp
+[16/1256] Generating geometry/curve_intersector_virtual_4v.cpp.sse42.cpp
+[17/1256] Generating geometry/curve_intersector_virtual_4i.cpp.sse42.cpp
+[18/1256] Building CXX object ext\embree\common\sys\CMakeFiles\sys.dir\thread.cpp.obj
+[19/1256] Building CXX object ext\embree\common\sys\CMakeFiles\sys.dir\mutex.cpp.obj
+[20/1256] Building CXX object ext\embree\common\sys\CMakeFiles\sys.dir\string.cpp.obj
+[21/1256] Generating geometry/curve_intersector_virtual_4i_mb.cpp.sse42.cpp
+[22/1256] Building CXX object ext\embree\common\sys\CMakeFiles\sys.dir\condition.cpp.obj
+[23/1256] Generating geometry/curve_intersector_virtual_8v.cpp.sse42.cpp
+[24/1256] Generating geometry/curve_intersector_virtual_8i.cpp.sse42.cpp
+[25/1256] Generating geometry/curve_intersector_virtual_8i_mb.cpp.sse42.cpp
+[26/1256] Generating bvh/bvh_intersector1_bvh4.cpp.sse42.cpp
+[27/1256] Generating common/scene_user_geometry.cpp.sse42.cpp
+[28/1256] Generating common/scene_instance.cpp.sse42.cpp
+[29/1256] Generating common/scene_triangle_mesh.cpp.sse42.cpp
+[30/1256] Generating common/scene_quad_mesh.cpp.sse42.cpp
+[31/1256] Generating common/scene_curves.cpp.sse42.cpp
+[32/1256] Generating common/scene_line_segments.cpp.sse42.cpp
+[33/1256] Generating common/scene_grid_mesh.cpp.sse42.cpp
+[34/1256] Generating bvh/bvh_collider.cpp.sse42.cpp
+[35/1256] Generating common/scene_points.cpp.sse42.cpp
+[36/1256] Building CXX object ext\embree\common\math\CMakeFiles\math.dir\constants.cpp.obj
+[37/1256] Generating bvh/bvh_refit.cpp.sse42.cpp
+[38/1256] Generating bvh/bvh_builder.cpp.sse42.cpp
+[39/1256] Generating bvh/bvh_builder_hair.cpp.sse42.cpp
+[40/1256] Generating bvh/bvh_builder_hair_mb.cpp.sse42.cpp
+[41/1256] Generating bvh/bvh_builder_sah.cpp.sse42.cpp
+[42/1256] Generating bvh/bvh_builder_sah_spatial.cpp.sse42.cpp
+[43/1256] Generating bvh/bvh_builder_sah_mb.cpp.sse42.cpp
+[44/1256] Generating bvh/bvh_builder_twolevel.cpp.sse42.cpp
+[45/1256] Generating bvh/bvh_builder_morton.cpp.sse42.cpp
+[46/1256] Generating bvh/bvh_rotate.cpp.sse42.cpp
+[47/1256] Generating builders/primrefgen.cpp.sse42.cpp
+[48/1256] Generating bvh/bvh_intersector_hybrid4_bvh4.cpp.sse42.cpp
+[49/1256] Generating bvh/bvh_intersector_stream_bvh4.cpp.sse42.cpp
+[50/1256] Generating bvh/bvh_intersector_stream_filters.cpp.sse42.cpp
+[51/1256] Generating geometry/instance_intersector.cpp.avx.cpp
+[52/1256] Generating geometry/curve_intersector_virtual_4v.cpp.avx.cpp
+[53/1256] Generating geometry/curve_intersector_virtual_4i.cpp.avx.cpp
+[54/1256] Generating geometry/curve_intersector_virtual_4i_mb.cpp.avx.cpp
+[55/1256] Generating geometry/curve_intersector_virtual_8v.cpp.avx.cpp
+[56/1256] Generating geometry/curve_intersector_virtual_8i.cpp.avx.cpp
+[57/1256] Generating geometry/curve_intersector_virtual_8i_mb.cpp.avx.cpp
+[58/1256] Generating bvh/bvh_intersector1_bvh4.cpp.avx.cpp
+[59/1256] Generating geometry/primitive8.cpp.avx.cpp
+[60/1256] Generating common/scene_user_geometry.cpp.avx.cpp
+[61/1256] Generating common/scene_instance.cpp.avx.cpp
+[62/1256] Generating common/scene_triangle_mesh.cpp.avx.cpp
+[63/1256] Generating common/scene_quad_mesh.cpp.avx.cpp
+[64/1256] Generating common/scene_curves.cpp.avx.cpp
+[65/1256] Generating common/scene_line_segments.cpp.avx.cpp
+[66/1256] Generating common/scene_grid_mesh.cpp.avx.cpp
+[67/1256] Generating common/scene_points.cpp.avx.cpp
+[68/1256] Generating bvh/bvh_collider.cpp.avx.cpp
+[69/1256] Generating bvh/bvh_refit.cpp.avx.cpp
+[70/1256] Generating bvh/bvh_builder.cpp.avx.cpp
+[71/1256] Generating bvh/bvh_builder_hair.cpp.avx.cpp
+[72/1256] Generating bvh/bvh_builder_hair_mb.cpp.avx.cpp
+[73/1256] Generating bvh/bvh_builder_sah.cpp.avx.cpp
+[74/1256] Generating bvh/bvh_builder_sah_spatial.cpp.avx.cpp
+[75/1256] Generating bvh/bvh_builder_sah_mb.cpp.avx.cpp
+[76/1256] Generating bvh/bvh_builder_twolevel.cpp.avx.cpp
+[77/1256] Embedding kernels_75 -> C:/Users/13243/Desktop/Blender/mitsuba3/build/ext/drjit/ext/drjit-core/resources/kernels_75.c
+[78/1256] Generating bvh/bvh_builder_morton.cpp.avx.cpp
+[79/1256] Generating bvh/bvh_rotate.cpp.avx.cpp
+[80/1256] Generating builders/primrefgen.cpp.avx.cpp
+[81/1256] Generating bvh/bvh_intersector1_bvh8.cpp.avx.cpp
+[82/1256] Generating bvh/bvh.cpp.avx.cpp
+[83/1256] Generating bvh/bvh_statistics.cpp.avx.cpp
+[84/1256] Generating bvh/bvh_intersector_hybrid4_bvh4.cpp.avx.cpp
+[85/1256] Generating bvh/bvh_intersector_stream_bvh4.cpp.avx.cpp
+[86/1256] Generating bvh/bvh_intersector_stream_filters.cpp.avx.cpp
+[87/1256] Generating bvh/bvh_intersector_hybrid8_bvh4.cpp.avx.cpp
+[88/1256] Generating bvh/bvh_intersector_hybrid4_bvh8.cpp.avx.cpp
+[89/1256] Generating bvh/bvh_intersector_hybrid8_bvh8.cpp.avx.cpp
+[90/1256] Generating bvh/bvh_intersector_stream_bvh8.cpp.avx.cpp
+[91/1256] Generating geometry/instance_intersector.cpp.avx2.cpp
+[92/1256] Generating geometry/curve_intersector_virtual_4v.cpp.avx2.cpp
+[93/1256] Generating geometry/curve_intersector_virtual_4i.cpp.avx2.cpp
+[94/1256] Generating geometry/curve_intersector_virtual_4i_mb.cpp.avx2.cpp
+[95/1256] Generating geometry/curve_intersector_virtual_8v.cpp.avx2.cpp
+[96/1256] Generating geometry/curve_intersector_virtual_8i.cpp.avx2.cpp
+[97/1256] Generating geometry/curve_intersector_virtual_8i_mb.cpp.avx2.cpp
+[98/1256] Generating bvh/bvh_intersector1_bvh4.cpp.avx2.cpp
+[99/1256] Generating common/scene_user_geometry.cpp.avx2.cpp
+[100/1256] Generating common/scene_instance.cpp.avx2.cpp
+[101/1256] Generating common/scene_triangle_mesh.cpp.avx2.cpp
+[102/1256] Generating common/scene_quad_mesh.cpp.avx2.cpp
+[103/1256] Generating common/scene_curves.cpp.avx2.cpp
+[104/1256] Generating common/scene_line_segments.cpp.avx2.cpp
+[105/1256] Generating common/scene_grid_mesh.cpp.avx2.cpp
+[106/1256] Generating common/scene_points.cpp.avx2.cpp
+[107/1256] Generating bvh/bvh_collider.cpp.avx2.cpp
+[108/1256] Generating bvh/bvh_refit.cpp.avx2.cpp
+[109/1256] Generating bvh/bvh_builder.cpp.avx2.cpp
+[110/1256] Generating bvh/bvh_builder_hair.cpp.avx2.cpp
+[111/1256] Generating bvh/bvh_builder_hair_mb.cpp.avx2.cpp
+[112/1256] Generating bvh/bvh_builder_sah.cpp.avx2.cpp
+[113/1256] Generating bvh/bvh_builder_sah_spatial.cpp.avx2.cpp
+[114/1256] Generating bvh/bvh_builder_sah_mb.cpp.avx2.cpp
+[115/1256] Generating bvh/bvh_builder_twolevel.cpp.avx2.cpp
+[116/1256] Generating bvh/bvh_builder_morton.cpp.avx2.cpp
+[117/1256] Generating builders/primrefgen.cpp.avx2.cpp
+[118/1256] Generating bvh/bvh_rotate.cpp.avx2.cpp
+[119/1256] Generating bvh/bvh_intersector1_bvh8.cpp.avx2.cpp
+[120/1256] Generating bvh/bvh_intersector_hybrid4_bvh4.cpp.avx2.cpp
+[121/1256] Generating bvh/bvh_intersector_stream_bvh4.cpp.avx2.cpp
+[122/1256] Generating bvh/bvh_intersector_stream_filters.cpp.avx2.cpp
+[123/1256] Generating bvh/bvh_intersector_hybrid8_bvh4.cpp.avx2.cpp
+[124/1256] Generating bvh/bvh_intersector_hybrid4_bvh8.cpp.avx2.cpp
+[125/1256] Generating bvh/bvh_intersector_hybrid8_bvh8.cpp.avx2.cpp
+[126/1256] Generating bvh/bvh_intersector_stream_bvh8.cpp.avx2.cpp
+[127/1256] Building CXX object ext\openexr\IlmBase\IexMath\CMakeFiles\IexMath.dir\IexMathFpu.cpp.obj
+[128/1256] Linking CXX shared library Release\Iex-mitsuba.dll
+[129/1256] Building CXX object ext\openexr\IlmBase\IexMath\CMakeFiles\IexMath.dir\IexMathFloatExc.cpp.obj
+[130/1256] Building CXX object ext\embree\common\sys\CMakeFiles\sys.dir\barrier.cpp.obj
+[131/1256] Building CXX object ext\openexr\IlmBase\Half\CMakeFiles\Half.dir\half.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[132/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\strbuf.cpp.obj
+[133/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\array.cpp.obj
+[134/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\var.cpp.obj
+[135/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\log.cpp.obj
+[136/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\op.cpp.obj
+[137/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\malloc.cpp.obj
+[138/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\registry.cpp.obj
+[139/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\util.cpp.obj
+[140/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\coop_vec.cpp.obj
+[141/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\record_ts.cpp.obj
+[142/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\reorder.cpp.obj
+[143/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\cuda_green.cpp.obj
+[144/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\cuda_core.cpp.obj
+[145/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\cuda_tex.cpp.obj
+[146/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\cuda_eval.cpp.obj
+[147/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\cuda_ts.cpp.obj
+[148/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\cuda_scatter.cpp.obj
+[149/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\cuda_api.cpp.obj
+[150/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\cuda_packet.cpp.obj
+[151/1256] Building C object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\resources\kernels_75.c.obj
+[152/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\cuda_array.cpp.obj
+[153/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\gl_interop.cpp.obj
+[154/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\optix_coop_vec.cpp.obj
+[155/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\llvm_core.cpp.obj
+[156/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\optix_core.cpp.obj
+[157/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\llvm_orcv2.cpp.obj
+[158/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\optix_api.cpp.obj
+[159/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\llvm_api.cpp.obj
+[160/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\llvm_ts.cpp.obj
+[161/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\llvm_eval.cpp.obj
+[162/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\llvm_scatter.cpp.obj
+[163/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\llvm_array.cpp.obj
+[164/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\llvm_coop_vec.cpp.obj
+[165/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\llvm_packet.cpp.obj
+[166/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\history.cpp.obj
+[167/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\loop.cpp.obj
+[168/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\isect.cpp.obj
+[169/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\cond.cpp.obj
+[170/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\unit.cpp.obj
+[171/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\eval.cpp.obj
+[172/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\call.cpp.obj
+[173/1256] Building C object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\ext\lz4\lz4.c.obj
+[174/1256] Building C object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\ext\lz4\lz4hc.c.obj
+[175/1256] Building C object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\resources\lz4_dicts.c.obj
+[176/1256] Linking CXX static library ext\embree\sys.lib
+[177/1256] Linking CXX static library ext\embree\math.lib
+[178/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\io.cpp.obj
+[179/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\profile.cpp.obj
+[180/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\nvtx_api.cpp.obj
+[181/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\init.cpp.obj
+[182/1256] Building CXX object ext\drjit\ext\drjit-core\CMakeFiles\drjit-core.dir\src\api.cpp.obj
+[183/1256] Building CXX object ext\embree\common\simd\CMakeFiles\simd.dir\sse.cpp.obj
+[184/1256] Building CXX object ext\embree\common\lexers\CMakeFiles\lexers.dir\stringstream.cpp.obj
+[185/1256] Building CXX object ext\embree\common\lexers\CMakeFiles\lexers.dir\tokenstream.cpp.obj
+[186/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\geometry\curve_intersector_virtual_8v.cpp.sse42.cpp.obj
+[187/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\geometry\curve_intersector_virtual_8i.cpp.sse42.cpp.obj
+[188/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\geometry\curve_intersector_virtual_8i_mb.cpp.sse42.cpp.obj
+[189/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\common\scene_user_geometry.cpp.sse42.cpp.obj
+[190/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\common\scene_instance.cpp.sse42.cpp.obj
+[191/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\common\scene_triangle_mesh.cpp.sse42.cpp.obj
+[192/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\common\scene_quad_mesh.cpp.sse42.cpp.obj
+[193/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\common\scene_line_segments.cpp.sse42.cpp.obj
+[194/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_intersector1_bvh4.cpp.sse42.cpp.obj
+[195/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\common\scene_grid_mesh.cpp.sse42.cpp.obj
+[196/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\common\scene_points.cpp.sse42.cpp.obj
+[197/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_collider.cpp.sse42.cpp.obj
+[198/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\geometry\instance_intersector.cpp.sse42.cpp.obj
+[199/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_refit.cpp.sse42.cpp.obj
+[200/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_builder_sah.cpp.sse42.cpp.obj
+[201/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_builder.cpp.sse42.cpp.obj
+[202/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_builder_hair.cpp.sse42.cpp.obj
+[203/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_builder_hair_mb.cpp.sse42.cpp.obj
+[204/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_builder_sah_spatial.cpp.sse42.cpp.obj
+[205/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_rotate.cpp.sse42.cpp.obj
+[206/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_builder_sah_mb.cpp.sse42.cpp.obj
+[207/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_builder_morton.cpp.sse42.cpp.obj
+[208/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_builder_twolevel.cpp.sse42.cpp.obj
+[209/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\builders\primrefgen.cpp.sse42.cpp.obj
+[210/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_intersector_stream_filters.cpp.sse42.cpp.obj
+[211/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_intersector_stream_bvh4.cpp.sse42.cpp.obj
+[212/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\geometry\curve_intersector_virtual_4i.cpp.sse42.cpp.obj
+[213/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\geometry\curve_intersector_virtual_4v.cpp.sse42.cpp.obj
+[214/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\common\scene_curves.cpp.sse42.cpp.obj
+[215/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\bvh\bvh_intersector_hybrid4_bvh4.cpp.sse42.cpp.obj
+[216/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\geometry\instance_intersector.cpp.avx.cpp.obj
+[217/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_intersector1_bvh4.cpp.avx.cpp.obj
+[218/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\geometry\primitive8.cpp.avx.cpp.obj
+[219/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\common\scene_user_geometry.cpp.avx.cpp.obj
+[220/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\common\scene_instance.cpp.avx.cpp.obj
+[221/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\common\scene_triangle_mesh.cpp.avx.cpp.obj
+[222/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\common\scene_quad_mesh.cpp.avx.cpp.obj
+[223/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_sse42.dir\geometry\curve_intersector_virtual_4i_mb.cpp.sse42.cpp.obj
+[224/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\common\scene_line_segments.cpp.avx.cpp.obj
+[225/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\common\scene_grid_mesh.cpp.avx.cpp.obj
+[226/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\common\scene_points.cpp.avx.cpp.obj
+[227/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_collider.cpp.avx.cpp.obj
+[228/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_refit.cpp.avx.cpp.obj
+[229/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_builder.cpp.avx.cpp.obj
+[230/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\geometry\curve_intersector_virtual_4i.cpp.avx.cpp.obj
+[231/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\common\scene_curves.cpp.avx.cpp.obj
+[232/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_builder_hair.cpp.avx.cpp.obj
+[233/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_builder_sah.cpp.avx.cpp.obj
+[234/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_builder_hair_mb.cpp.avx.cpp.obj
+[235/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_builder_sah_spatial.cpp.avx.cpp.obj
+[236/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\geometry\curve_intersector_virtual_8v.cpp.avx.cpp.obj
+[237/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\geometry\curve_intersector_virtual_4i_mb.cpp.avx.cpp.obj
+[238/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_rotate.cpp.avx.cpp.obj
+[239/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_builder_sah_mb.cpp.avx.cpp.obj
+[240/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_builder_morton.cpp.avx.cpp.obj
+[241/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\builders\primrefgen.cpp.avx.cpp.obj
+[242/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh.cpp.avx.cpp.obj
+[243/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_statistics.cpp.avx.cpp.obj
+[244/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_builder_twolevel.cpp.avx.cpp.obj
+[245/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_intersector1_bvh8.cpp.avx.cpp.obj
+[246/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_intersector_stream_filters.cpp.avx.cpp.obj
+[247/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_intersector_stream_bvh4.cpp.avx.cpp.obj
+[248/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_intersector_hybrid4_bvh4.cpp.avx.cpp.obj
+[249/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\geometry\curve_intersector_virtual_4v.cpp.avx.cpp.obj
+[250/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_intersector_hybrid8_bvh4.cpp.avx.cpp.obj
+[251/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_intersector_stream_bvh8.cpp.avx.cpp.obj
+[252/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_intersector_hybrid4_bvh8.cpp.avx.cpp.obj
+[253/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\bvh\bvh_intersector_hybrid8_bvh8.cpp.avx.cpp.obj
+[254/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\geometry\instance_intersector.cpp.avx2.cpp.obj
+[255/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\geometry\curve_intersector_virtual_8i.cpp.avx.cpp.obj
+[256/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_intersector1_bvh4.cpp.avx2.cpp.obj
+[257/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\common\scene_user_geometry.cpp.avx2.cpp.obj
+[258/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\common\scene_instance.cpp.avx2.cpp.obj
+[259/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx.dir\geometry\curve_intersector_virtual_8i_mb.cpp.avx.cpp.obj
+[260/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\common\scene_triangle_mesh.cpp.avx2.cpp.obj
+[261/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\common\scene_quad_mesh.cpp.avx2.cpp.obj
+[262/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\common\scene_line_segments.cpp.avx2.cpp.obj
+[263/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\common\scene_grid_mesh.cpp.avx2.cpp.obj
+[264/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\common\scene_points.cpp.avx2.cpp.obj
+[265/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_collider.cpp.avx2.cpp.obj
+[266/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_refit.cpp.avx2.cpp.obj
+[267/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\geometry\curve_intersector_virtual_4i.cpp.avx2.cpp.obj
+[268/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_builder.cpp.avx2.cpp.obj
+[269/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\geometry\curve_intersector_virtual_8v.cpp.avx2.cpp.obj
+[270/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_builder_sah.cpp.avx2.cpp.obj
+[271/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_builder_hair.cpp.avx2.cpp.obj
+[272/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_builder_hair_mb.cpp.avx2.cpp.obj
+[273/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\common\scene_curves.cpp.avx2.cpp.obj
+[274/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\geometry\curve_intersector_virtual_4i_mb.cpp.avx2.cpp.obj
+[275/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_builder_sah_spatial.cpp.avx2.cpp.obj
+[276/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_rotate.cpp.avx2.cpp.obj
+[277/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_builder_sah_mb.cpp.avx2.cpp.obj
+[278/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_builder_morton.cpp.avx2.cpp.obj
+[279/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\builders\primrefgen.cpp.avx2.cpp.obj
+[280/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_intersector_stream_filters.cpp.avx2.cpp.obj
+[281/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_builder_twolevel.cpp.avx2.cpp.obj
+[282/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_intersector1_bvh8.cpp.avx2.cpp.obj
+[283/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_intersector_stream_bvh4.cpp.avx2.cpp.obj
+[284/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_intersector_hybrid8_bvh4.cpp.avx2.cpp.obj
+[285/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_intersector_hybrid4_bvh8.cpp.avx2.cpp.obj
+[286/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_intersector_hybrid4_bvh4.cpp.avx2.cpp.obj
+[287/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\compress.c.obj
+[288/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\adler32.c.obj
+[289/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\crc32.c.obj
+[290/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\gzclose.c.obj
+[291/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\deflate.c.obj
+[292/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\gzlib.c.obj
+[293/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\gzread.c.obj
+[294/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\gzwrite.c.obj
+[295/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\infback.c.obj
+[296/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\inftrees.c.obj
+[297/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\inflate.c.obj
+[298/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\inffast.c.obj
+[299/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\uncompr.c.obj
+[300/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\trees.c.obj
+[301/1256] Building C object ext\zlib\CMakeFiles\zlib.dir\zutil.c.obj
+[302/1256] Building RC object ext\zlib\CMakeFiles\zlib.dir\win32\zlib1.rc.res
+[303/1256] Linking CXX shared library Release\Half-mitsuba.dll
+[304/1256] Linking CXX shared library Release\IexMath-mitsuba.dll
+[305/1256] Building CXX object ext\openexr\IlmBase\Imath\CMakeFiles\Imath.dir\ImathRandom.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[306/1256] Building CXX object ext\openexr\IlmBase\Imath\CMakeFiles\Imath.dir\ImathFun.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[307/1256] Building CXX object ext\openexr\IlmBase\Imath\CMakeFiles\Imath.dir\ImathColorAlgo.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[308/1256] Building CXX object ext\openexr\IlmBase\Imath\CMakeFiles\Imath.dir\ImathVec.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[309/1256] Building CXX object ext\openexr\IlmBase\Imath\CMakeFiles\Imath.dir\ImathExc.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[310/1256] Building CXX object ext\openexr\IlmBase\IlmThread\CMakeFiles\IlmThread.dir\IlmThreadMutex.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[311/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_intersector_hybrid8_bvh8.cpp.avx2.cpp.obj
+[312/1256] Building CXX object ext\openexr\IlmBase\IlmThread\CMakeFiles\IlmThread.dir\IlmThreadMutexPosix.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[313/1256] Building CXX object ext\openexr\IlmBase\IlmThread\CMakeFiles\IlmThread.dir\IlmThread.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[314/1256] Building CXX object ext\openexr\IlmBase\IlmThread\CMakeFiles\IlmThread.dir\IlmThreadPosix.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[315/1256] Building CXX object ext\openexr\IlmBase\IlmThread\CMakeFiles\IlmThread.dir\IlmThreadSemaphore.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[316/1256] Building CXX object ext\openexr\IlmBase\IlmThread\CMakeFiles\IlmThread.dir\IlmThreadSemaphorePosix.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[317/1256] Building CXX object ext\openexr\IlmBase\IlmThread\CMakeFiles\IlmThread.dir\IlmThreadSemaphoreOSX.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[318/1256] Building CXX object ext\openexr\IlmBase\Imath\CMakeFiles\Imath.dir\ImathMatrixAlgo.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[319/1256] Building CXX object ext\openexr\IlmBase\IlmThread\CMakeFiles\IlmThread.dir\IlmThreadMutexWin32.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[320/1256] Building CXX object ext\openexr\IlmBase\IlmThread\CMakeFiles\IlmThread.dir\IlmThreadSemaphorePosixCompat.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[321/1256] Building CXX object ext\openexr\IlmBase\IlmThread\CMakeFiles\IlmThread.dir\IlmThreadWin32.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[322/1256] Building CXX object ext\openexr\IlmBase\IlmThread\CMakeFiles\IlmThread.dir\IlmThreadPool.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[323/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\bvh\bvh_intersector_stream_bvh8.cpp.avx2.cpp.obj
+[324/1256] Building CXX object ext\openexr\IlmBase\IlmThread\CMakeFiles\IlmThread.dir\IlmThreadSemaphoreWin32.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W2'
+[325/1256] Building CXX object ext\drjit\src\extra\CMakeFiles\drjit-extra.dir\math.cpp.obj
+[326/1256] Building CXX object ext\drjit\src\extra\CMakeFiles\drjit-extra.dir\call.cpp.obj
+[327/1256] Building CXX object ext\CMakeFiles\pugixml.dir\pugixml\src\pugixml.cpp.obj
+[328/1256] Building CXX object ext\drjit\src\extra\CMakeFiles\drjit-extra.dir\loop.cpp.obj
+[329/1256] Building CXX object ext\drjit\src\extra\CMakeFiles\drjit-extra.dir\cond.cpp.obj
+[330/1256] Building CXX object ext\drjit\src\extra\CMakeFiles\drjit-extra.dir\autodiff.cpp.obj
+[331/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\geometry\curve_intersector_virtual_4v.cpp.avx2.cpp.obj
+[332/1256] Linking CXX static library ext\embree\simd.lib
+[333/1256] Linking CXX static library ext\embree\lexers.lib
+[334/1256] Building RC object ext\embree\kernels\CMakeFiles\embree.dir\embree.rc.res
+[335/1256] Building CXX object ext\drjit\src\extra\CMakeFiles\drjit-extra.dir\bc.cpp.obj
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\drjit\src\extra\..\..\ext\bcdec\bcdec.h(1397): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\drjit\src\extra\..\..\ext\bcdec\bcdec.h(1445): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\drjit\src\extra\..\..\ext\bcdec\bcdec.h(1446): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\drjit\src\extra\..\..\ext\bcdec\bcdec.h(1447): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\drjit\src\extra\..\..\ext\bcdec\bcdec.h(1448): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\drjit\src\extra\bc.cpp(42) : warning C4701: potentially uninitialized local variable 'channels' used
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\drjit\src\extra\bc.cpp(42) : warning C4701: potentially uninitialized local variable 'block_bytes' used
+[336/1256] Building CXX object ext\drjit\src\extra\CMakeFiles\drjit-extra.dir\resample.cpp.obj
+[337/1256] Building CXX object ext\drjit\src\extra\CMakeFiles\drjit-extra.dir\texture.cpp.obj
+[338/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\stat.cpp.obj
+[339/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\acceln.cpp.obj
+[340/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\device.cpp.obj
+[341/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\accelset.cpp.obj
+[342/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\rtcore.cpp.obj
+[343/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\alloc.cpp.obj
+[344/1256] Linking CXX shared library Release\drjit-core.dll
+[345/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\scene.cpp.obj
+[346/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\state.cpp.obj
+[347/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\geometry.cpp.obj
+[348/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\rtcore_builder.cpp.obj
+[349/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\scene_user_geometry.cpp.obj
+[350/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\scene_triangle_mesh.cpp.obj
+[351/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\scene_quad_mesh.cpp.obj
+[352/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\scene_line_segments.cpp.obj
+[353/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\scene_grid_mesh.cpp.obj
+[354/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\scene_points.cpp.obj
+[355/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\subdiv\bezier_curve.cpp.obj
+[356/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\subdiv\bspline_curve.cpp.obj
+[357/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\subdiv\catmullrom_curve.cpp.obj
+[358/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\geometry\curve_intersector_virtual_8i.cpp.avx2.cpp.obj
+[359/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\geometry\primitive4.cpp.obj
+[360/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\geometry\instance_intersector.cpp.obj
+[361/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\scene_curves.cpp.obj
+[362/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\geometry\curve_intersector_virtual_8v.cpp.obj
+[363/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\geometry\curve_intersector_virtual_8i.cpp.obj
+[364/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\geometry\curve_intersector_virtual_8i_mb.cpp.obj
+[365/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree_avx2.dir\geometry\curve_intersector_virtual_8i_mb.cpp.avx2.cpp.obj
+[366/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh.cpp.obj
+[367/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_statistics.cpp.obj
+[368/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\builders\primrefgen.cpp.obj
+[369/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_collider.cpp.obj
+[370/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh4_factory.cpp.obj
+[371/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh8_factory.cpp.obj
+[372/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_rotate.cpp.obj
+[373/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_refit.cpp.obj
+[374/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_builder.cpp.obj
+[375/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_builder_hair.cpp.obj
+[376/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\motion_derivative.cpp.obj
+[377/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_builder_morton.cpp.obj
+[378/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_builder_hair_mb.cpp.obj
+[379/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_builder_sah.cpp.obj
+[380/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\common\scene_instance.cpp.obj
+[381/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_builder_sah_spatial.cpp.obj
+[382/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_builder_sah_mb.cpp.obj
+[383/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_builder_twolevel.cpp.obj
+[384/1256] Linking CXX static library ext\embree\embree_sse42.lib
+[385/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_intersector1_bvh4.cpp.obj
+[386/1256] Linking CXX static library ext\embree\embree_avx.lib
+[387/1256] Linking CXX static library ext\embree\embree_avx2.lib
+[388/1256] Linking C shared library Release\zlib1.dll
+[389/1256] Linking CXX shared library Release\Imath-mitsuba.dll
+[390/1256] Linking CXX shared library Release\IlmThread-mitsuba.dll
+[391/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[392/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfBoxAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[393/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_intersector_stream_filters.cpp.obj
+[394/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfChannelList.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[395/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfCRgbaFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[396/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfChannelListAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[397/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfFloatAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[398/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfFrameBuffer.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[399/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfIO.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[400/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfHeader.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[401/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfInputFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[402/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfIntAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[403/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfLineOrderAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[404/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfOpaqueAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[405/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfMatrixAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[406/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfStringAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[407/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_intersector_stream_bvh4.cpp.obj
+[408/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfRgbaFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[409/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfThreading.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[410/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfVecAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[411/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfOutputFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[412/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfWav.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[413/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfHuf.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[414/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfRleCompressor.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[415/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfLut.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[416/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfCompressor.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[417/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfZipCompressor.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[418/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfPizCompressor.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[419/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfB44Compressor.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[420/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfCompressionAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[421/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfDoubleAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[422/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfMisc.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[423/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfConvert.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[424/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfVersion.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[425/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfPreviewImage.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[426/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfPreviewImageAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[427/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfChromaticities.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[428/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfKeyCode.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[429/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfChromaticitiesAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[430/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfDwaCompressor.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[431/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfKeyCodeAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[432/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfTimeCode.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[433/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfTimeCodeAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[434/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfRational.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[435/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfFramesPerSecond.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[436/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfRationalAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[437/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfEnvmap.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[438/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfStandardAttributes.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[439/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\bvh\bvh_intersector_hybrid4_bvh4.cpp.obj
+[440/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfEnvmapAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[441/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfStdIO.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[442/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfTiledMisc.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[443/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfTiledRgbaFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[444/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfTileDescriptionAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[445/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfScanLineInputFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[446/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfTiledInputFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[447/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfTiledOutputFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[448/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfRgbaYca.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[449/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfTileOffsets.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[450/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfTestFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[451/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfPxr24Compressor.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[452/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfStringVectorAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[453/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfMultiView.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[454/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfGenericOutputFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[455/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfAcesFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[456/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfOutputPartData.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[457/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfMultiPartOutputFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[458/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfPartType.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[459/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfGenericInputFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[460/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfInputPartData.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[461/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfOutputPart.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[462/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfTiledOutputPart.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[463/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfInputPart.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[464/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfTiledInputPart.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[465/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfMultiPartInputFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[466/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfDeepScanLineInputPart.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[467/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfDeepScanLineOutputPart.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[468/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfDeepTiledInputPart.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[469/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfDeepTiledOutputPart.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[470/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfDeepScanLineOutputFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[471/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfDeepScanLineInputFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[472/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfDeepFrameBuffer.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[473/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfDeepTiledInputFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[474/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfDeepCompositing.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[475/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfDeepImageStateAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[476/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfRle.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[477/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfDeepTiledOutputFile.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[478/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfSystemSpecific.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[479/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfFloatVectorAttribute.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[480/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfFastHuf.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[481/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfCompositeDeepScanLine.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[482/1256] Building C object ext\libpng\CMakeFiles\png.dir\png.c.obj
+[483/1256] Building CXX object ext\openexr\OpenEXR\IlmImf\CMakeFiles\IlmImf.dir\ImfZip.cpp.obj
+cl : Command line warning D9025 : overriding '/W4' with '/W1'
+[484/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngget.c.obj
+[485/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngerror.c.obj
+[486/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngmem.c.obj
+[487/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngpread.c.obj
+[488/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngread.c.obj
+[489/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngrio.c.obj
+[490/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngrutil.c.obj
+[491/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngset.c.obj
+[492/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngrtran.c.obj
+[493/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngtrans.c.obj
+[494/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngwio.c.obj
+[495/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngwtran.c.obj
+[496/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngwrite.c.obj
+[497/1256] Building C object ext\libpng\CMakeFiles\png.dir\intel\intel_init.c.obj
+[498/1256] Building C object ext\libpng\CMakeFiles\png.dir\pngwutil.c.obj
+[499/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcapistd-8.c.obj
+[500/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jcapimin.c.obj
+[501/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcapistd-12.c.obj
+[502/1256] Building C object ext\libpng\CMakeFiles\png.dir\intel\filter_sse2_intrinsics.c.obj
+[503/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcapistd-16.c.obj
+[504/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jccoefct-8.c.obj
+[505/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jccoefct-12.c.obj
+[506/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jccolor-8.c.obj
+[507/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jccolor-16.c.obj
+[508/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jccolor-12.c.obj
+[509/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcdctmgr-8.c.obj
+[510/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcdctmgr-12.c.obj
+[511/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jcicc.c.obj
+[512/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcdiffct-8.c.obj
+[513/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcdiffct-12.c.obj
+[514/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcdiffct-16.c.obj
+[515/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jcinit.c.obj
+[516/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jclossls-8.c.obj
+[517/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jclossls-12.c.obj
+[518/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jclhuff.c.obj
+[519/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jclossls-16.c.obj
+[520/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcmainct-8.c.obj
+[521/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcmainct-12.c.obj
+[522/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcmainct-16.c.obj
+[523/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jcomapi.c.obj
+[524/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jcmarker.c.obj
+[525/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jcmaster.c.obj
+[526/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcprepct-8.c.obj
+[527/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcprepct-12.c.obj
+[528/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jcparam.c.obj
+[529/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jcphuff.c.obj
+[530/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcprepct-16.c.obj
+[531/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcsample-8.c.obj
+[532/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcsample-12.c.obj
+[533/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jcsample-16.c.obj
+[534/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jdapimin.c.obj
+[535/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jctrans.c.obj
+[536/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdapistd-8.c.obj
+[537/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdapistd-12.c.obj
+[538/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdapistd-16.c.obj
+[539/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jdatadst.c.obj
+[540/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jdatasrc.c.obj
+[541/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdcoefct-8.c.obj
+[542/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdcoefct-12.c.obj
+[543/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdcolor-8.c.obj
+[544/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdcolor-12.c.obj
+[545/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jddctmgr-8.c.obj
+[546/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdcolor-16.c.obj
+[547/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jddctmgr-12.c.obj
+[548/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jddiffct-8.c.obj
+[549/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jddiffct-12.c.obj
+[550/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jddiffct-16.c.obj
+[551/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jdicc.c.obj
+[552/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jdinput.c.obj
+[553/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jdlhuff.c.obj
+[554/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jdhuff.c.obj
+[555/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdlossls-8.c.obj
+[556/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdlossls-12.c.obj
+[557/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdlossls-16.c.obj
+[558/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdmainct-8.c.obj
+[559/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdmainct-12.c.obj
+[560/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdmainct-16.c.obj
+[561/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jdmarker.c.obj
+[562/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jdmaster.c.obj
+[563/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jdphuff.c.obj
+[564/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdpostct-8.c.obj
+[565/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdmerge-8.c.obj
+[566/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdmerge-12.c.obj
+[567/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdpostct-16.c.obj
+[568/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdpostct-12.c.obj
+[569/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdsample-8.c.obj
+[570/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdsample-12.c.obj
+[571/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jdsample-16.c.obj
+[572/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jdtrans.c.obj
+[573/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jerror.c.obj
+[574/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jfdctflt.c.obj
+[575/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jfdctfst-12.c.obj
+[576/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jfdctfst-8.c.obj
+[577/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jfdctint-8.c.obj
+[578/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jfdctint-12.c.obj
+[579/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jidctflt-8.c.obj
+[580/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jidctflt-12.c.obj
+[581/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jidctfst-8.c.obj
+[582/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jidctfst-12.c.obj
+[583/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jidctred-8.c.obj
+[584/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jidctred-12.c.obj
+[585/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jidctint-8.c.obj
+[586/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jidctint-12.c.obj
+[587/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jmemnobs.c.obj
+[588/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jmemmgr.c.obj
+[589/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jpeg_nbits.c.obj
+[590/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jquant1-8.c.obj
+[591/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jquant1-12.c.obj
+[592/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jutils-8.c.obj
+[593/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jquant2-8.c.obj
+[594/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jquant2-12.c.obj
+[595/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jutils-12.c.obj
+[596/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\wrapper\jutils-16.c.obj
+[597/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jaricom.c.obj
+[598/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jcarith.c.obj
+[599/1256] Building RC object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\win\jpeg.rc.res
+[600/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jdarith.c.obj
+[601/1256] Building CXX object ext\struct-jit\CMakeFiles\struct-jit.dir\src\half.cpp.obj
+[602/1256] Building CXX object ext\struct-jit\CMakeFiles\struct-jit.dir\src\dither.cpp.obj
+[603/1256] Building ASM_MASM object ext\struct-jit\CMakeFiles\struct-jit.dir\asm\asm_x64_win.asm.obj
+Microsoft (R) Macro Assembler (x64) Version 14.44.35228.0
+
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+
+ Assembling: C:\Users\13243\Desktop\Blender\mitsuba3\ext\struct-jit\asm\asm_x64_win.asm
+
+[604/1256] Building CXX object ext\struct-jit\CMakeFiles\struct-jit.dir\src\struct-jit.cpp.obj
+[605/1256] Building C object ext\rgb2spec\CMakeFiles\rgb2spec.dir\rgb2spec.c.obj
+[606/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\geometry\curve_intersector_virtual_4v.cpp.obj
+[607/1256] Linking CXX shared library Release\pugixml.dll
+[608/1256] Building CXX object ext\struct-jit\CMakeFiles\struct-jit.dir\src\converter.cpp.obj
+[609/1256] Linking C static library ext\rgb2spec\rgb2spec.lib
+[610/1256] Linking CXX shared library Release\drjit-extra.dll
+[611/1256] Linking C shared library Release\png-mitsuba.dll
+[612/1256] Linking CXX shared library Release\IlmImf-mitsuba.dll
+[613/1256] Building CXX object ext\struct-jit\CMakeFiles\struct-jit.dir\src\jit.cpp.obj
+[614/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\geometry\curve_intersector_virtual_4i.cpp.obj
+[615/1256] Linking CXX shared library Release\struct-jit.dll
+[616/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\string.cpp.obj
+[617/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\argparser.cpp.obj
+[618/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\appender.cpp.obj
+[619/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\dstream.cpp.obj
+[620/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\formatter.cpp.obj
+[621/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\filesystem.cpp.obj
+[622/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\fresolver.cpp.obj
+[623/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\animated_transform.cpp.obj
+[624/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\fstream.cpp.obj
+[625/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\bitmap.cpp.obj
+[626/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\logger.cpp.obj
+[627/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\mstream.cpp.obj
+[628/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\mmap.cpp.obj
+[629/1256] Building C object ext\libjpeg-turbo\sharedlib\CMakeFiles\jpeg.dir\__\src\jchuff.c.obj
+[630/1256] Building CXX object ext\embree\kernels\CMakeFiles\embree.dir\geometry\curve_intersector_virtual_4i_mb.cpp.obj
+[631/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\packed.cpp.obj
+[632/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\tensor.cpp.obj
+[633/1256] Linking C shared library Release\jpeg62.dll
+[634/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\object.cpp.obj
+[635/1256] Linking CXX shared library Release\embree3.dll
+[636/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\profiler.cpp.obj
+[637/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\progress.cpp.obj
+[638/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\qmc.cpp.obj
+[639/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\rfilter.cpp.obj
+[640/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\stream.cpp.obj
+[641/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\thread.cpp.obj
+[642/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\spectrum.cpp.obj
+[643/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\plugin.cpp.obj
+[644/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\util.cpp.obj
+[645/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\zstream.cpp.obj
+[646/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\properties.cpp.obj
+[647/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\dedge.cpp.obj
+[648/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\emitter.cpp.obj
+[649/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\bsdf.cpp.obj
+[650/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\endpoint.cpp.obj
+[651/1256] Building CXX object src\core\CMakeFiles\mitsuba-core.dir\parser.cpp.obj
+[652/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\film.cpp.obj
+[653/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\mesh_utils.cpp.obj
+[654/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\imageblock.cpp.obj
+[655/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\integrator.cpp.obj
+[656/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\postprocess.cpp.obj
+[657/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\phase.cpp.obj
+[658/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\microfacet.cpp.obj
+[659/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\sampler.cpp.obj
+[660/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\medium.cpp.obj
+[661/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\sensor.cpp.obj
+[662/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\texture.cpp.obj
+[663/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\scene_ir.cpp.obj
+[664/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\spiral.cpp.obj
+[665/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\srgb.cpp.obj
+[666/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\optix_api.cpp.obj
+[667/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\shapegroup.cpp.obj
+[668/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\volumegrid.cpp.obj
+[669/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\volume.cpp.obj
+[670/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\optix\accel.cpp.obj
+[671/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\optixdenoiser.cpp.obj
+[672/1256] Building CXX object ext\drjit\src\python\CMakeFiles\nanobind-static.dir\__\__\__\nanobind\src\nb_internals.cpp.obj
+[673/1256] Building CXX object ext\drjit\src\python\CMakeFiles\nanobind-static.dir\__\__\__\nanobind\src\nb_func.cpp.obj
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\src\nb_func.cpp(375): warning C4459: declaration of 'vectorcall' hides global declaration
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\include\nanobind\nb_backend_slots.h(581): note: see declaration of 'nanobind::detail::vectorcall'
+[674/1256] Building CXX object ext\drjit\src\python\CMakeFiles\nanobind-static.dir\__\__\__\nanobind\src\nb_enum.cpp.obj
+[675/1256] Building CXX object ext\drjit\src\python\CMakeFiles\nanobind-static.dir\__\__\__\nanobind\src\nb_type.cpp.obj
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\src\nb_type.cpp(2112): warning C4457: declaration of 'p' hides function parameter
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\src\nb_type.cpp(2097): note: see declaration of 'p'
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\src\nb_type.cpp(2336): warning C4457: declaration of 'p' hides function parameter
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\src\nb_type.cpp(2284): note: see declaration of 'p'
+[676/1256] Building CXX object ext\drjit\src\python\CMakeFiles\nanobind-static.dir\__\__\__\nanobind\src\nb_ndarray.cpp.obj
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\src\nb_ndarray.cpp(604): warning C4457: declaration of 'p' hides function parameter
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\src\nb_ndarray.cpp(594): note: see declaration of 'p'
+[677/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\shape.cpp.obj
+[678/1256] Building CXX object ext\drjit\src\python\CMakeFiles\nanobind-static.dir\__\__\__\nanobind\src\nb_static_property.cpp.obj
+[679/1256] Building CXX object ext\drjit\src\python\CMakeFiles\nanobind-static.dir\__\__\__\nanobind\src\nb_datetime.cpp.obj
+[680/1256] Generating docstr.h
+[681/1256] Building CXX object ext\drjit\src\python\CMakeFiles\nanobind-static.dir\__\__\__\nanobind\src\common.cpp.obj
+[682/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\mesh.cpp.obj
+[683/1256] Building CXX object ext\drjit\src\python\CMakeFiles\nanobind-static.dir\__\__\__\nanobind\src\implicit.cpp.obj
+[684/1256] Building CXX object ext\drjit\src\python\CMakeFiles\nanobind-static.dir\__\__\__\nanobind\src\error.cpp.obj
+[685/1256] Building CXX object ext\drjit\src\python\CMakeFiles\nanobind-static.dir\__\__\__\nanobind\src\trampoline.cpp.obj
+[686/1256] Building CXX object ext\rgb2spec\CMakeFiles\rgb2spec_opt.dir\rgb2spec_opt.cpp.obj
+[687/1256] Building CXX object src\bsdfs\CMakeFiles\diffuse.dir\diffuse.cpp.obj
+[688/1256] Building CXX object src\bsdfs\CMakeFiles\blendbsdf.dir\blendbsdf.cpp.obj
+[689/1256] Building CXX object src\bsdfs\CMakeFiles\conductor.dir\conductor.cpp.obj
+[690/1256] Building CXX object src\bsdfs\CMakeFiles\mask.dir\mask.cpp.obj
+[691/1256] Building CXX object src\bsdfs\CMakeFiles\dielectric.dir\dielectric.cpp.obj
+[692/1256] Building CXX object src\render\CMakeFiles\mitsuba-render.dir\scene.cpp.obj
+[693/1256] Building CXX object src\bsdfs\CMakeFiles\bumpmap.dir\bumpmap.cpp.obj
+[694/1256] Building CXX object src\bsdfs\CMakeFiles\null.dir\null.cpp.obj
+[695/1256] Building CXX object src\bsdfs\CMakeFiles\hair.dir\hair.cpp.obj
+[696/1256] Building CXX object src\bsdfs\CMakeFiles\normalmap.dir\normalmap.cpp.obj
+[697/1256] Building CXX object src\bsdfs\CMakeFiles\plastic.dir\plastic.cpp.obj
+[698/1256] Building CXX object src\bsdfs\CMakeFiles\polarizer.dir\polarizer.cpp.obj
+[699/1256] Building CXX object src\bsdfs\CMakeFiles\thindielectric.dir\thindielectric.cpp.obj
+[700/1256] Building CXX object src\bsdfs\CMakeFiles\twosided.dir\twosided.cpp.obj
+[701/1256] Building CXX object src\bsdfs\CMakeFiles\roughconductor.dir\roughconductor.cpp.obj
+[702/1256] Building CXX object src\bsdfs\CMakeFiles\roughdielectric.dir\roughdielectric.cpp.obj
+[703/1256] Building CXX object src\bsdfs\CMakeFiles\retarder.dir\retarder.cpp.obj
+[704/1256] Building CXX object src\bsdfs\CMakeFiles\circular.dir\circular.cpp.obj
+[705/1256] Building CXX object src\bsdfs\CMakeFiles\roughplastic.dir\roughplastic.cpp.obj
+[706/1256] Building CXX object src\bsdfs\CMakeFiles\measured.dir\measured.cpp.obj
+[707/1256] Building CXX object src\bsdfs\CMakeFiles\pplastic.dir\pplastic.cpp.obj
+[708/1256] Building CXX object src\emitters\CMakeFiles\area.dir\area.cpp.obj
+[709/1256] Building CXX object src\emitters\CMakeFiles\point.dir\point.cpp.obj
+[710/1256] Building CXX object src\emitters\CMakeFiles\portal.dir\portal.cpp.obj
+[711/1256] Building CXX object src\emitters\CMakeFiles\constant.dir\constant.cpp.obj
+[712/1256] Building CXX object src\bsdfs\CMakeFiles\principled.dir\principled.cpp.obj
+[713/1256] Building CXX object src\bsdfs\CMakeFiles\principledthin.dir\principledthin.cpp.obj
+[714/1256] Building CXX object src\emitters\CMakeFiles\directional.dir\directional.cpp.obj
+[715/1256] Building CXX object src\emitters\CMakeFiles\directionalarea.dir\directionalarea.cpp.obj
+[716/1256] Building CXX object src\emitters\CMakeFiles\spot.dir\spot.cpp.obj
+[717/1256] Building CXX object src\emitters\CMakeFiles\envmap.dir\envmap.cpp.obj
+[718/1256] Linking CXX shared library Release\mitsuba.dll
+[719/1256] Building CXX object src\emitters\CMakeFiles\projector.dir\projector.cpp.obj
+[720/1256] Building CXX object src\bsdfs\CMakeFiles\measured_polarized.dir\measured_polarized.cpp.obj
+[721/1256] Building CXX object src\films\CMakeFiles\hdrfilm.dir\hdrfilm.cpp.obj
+[722/1256] Building CXX object src\integrators\CMakeFiles\depth.dir\depth.cpp.obj
+[723/1256] Building CXX object src\films\CMakeFiles\specfilm.dir\specfilm.cpp.obj
+[724/1256] Building CXX object src\integrators\CMakeFiles\moment.dir\moment.cpp.obj
+[725/1256] Building CXX object src\integrators\CMakeFiles\stokes.dir\stokes.cpp.obj
+[726/1256] Building CXX object src\integrators\CMakeFiles\aov.dir\aov.cpp.obj
+[727/1256] Building CXX object src\emitters\CMakeFiles\sunsky.dir\sunsky.cpp.obj
+[728/1256] Building CXX object src\integrators\CMakeFiles\direct.dir\direct.cpp.obj
+[729/1256] Building CXX object src\emitters\CMakeFiles\timed_sunsky.dir\timed_sunsky.cpp.obj
+[730/1256] Building CXX object src\media\CMakeFiles\homogeneous.dir\homogeneous.cpp.obj
+[731/1256] Building CXX object src\integrators\CMakeFiles\path.dir\path.cpp.obj
+[732/1256] Building CXX object src\media\CMakeFiles\heterogeneous.dir\heterogeneous.cpp.obj
+[733/1256] Building CXX object src\phase\CMakeFiles\hg.dir\hg.cpp.obj
+[734/1256] Building CXX object src\phase\CMakeFiles\isotropic.dir\isotropic.cpp.obj
+[735/1256] Building CXX object src\integrators\CMakeFiles\ptracer.dir\ptracer.cpp.obj
+[736/1256] Building CXX object src\phase\CMakeFiles\rayleigh.dir\rayleigh.cpp.obj
+[737/1256] Building CXX object src\rfilters\CMakeFiles\box.dir\box.cpp.obj
+[738/1256] Building CXX object src\phase\CMakeFiles\blendphase.dir\blendphase.cpp.obj
+[739/1256] Building CXX object src\rfilters\CMakeFiles\tent.dir\tent.cpp.obj
+[740/1256] Building CXX object src\rfilters\CMakeFiles\lanczos.dir\lanczos.cpp.obj
+[741/1256] Building CXX object src\phase\CMakeFiles\sggx.dir\sggx.cpp.obj
+[742/1256] Building CXX object src\rfilters\CMakeFiles\mitchell.dir\mitchell.cpp.obj
+[743/1256] Building CXX object src\rfilters\CMakeFiles\catmullrom.dir\catmullrom.cpp.obj
+[744/1256] Building CXX object src\rfilters\CMakeFiles\gaussian.dir\gaussian.cpp.obj
+[745/1256] Building CXX object src\phase\CMakeFiles\tabphase.dir\tabphase.cpp.obj
+[746/1256] Building CXX object src\samplers\CMakeFiles\independent.dir\independent.cpp.obj
+[747/1256] Building CXX object src\samplers\CMakeFiles\stratified.dir\stratified.cpp.obj
+[748/1256] Building CXX object src\samplers\CMakeFiles\multijitter.dir\multijitter.cpp.obj
+[749/1256] Building CXX object src\samplers\CMakeFiles\ldsampler.dir\ldsampler.cpp.obj
+[750/1256] Building CXX object src\samplers\CMakeFiles\orthogonal.dir\orthogonal.cpp.obj
+[751/1256] Building CXX object src\integrators\CMakeFiles\volpath.dir\volpath.cpp.obj
+[752/1256] Building CXX object src\sensors\CMakeFiles\orthographic.dir\orthographic.cpp.obj
+[753/1256] Building CXX object src\sensors\CMakeFiles\perspective.dir\perspective.cpp.obj
+[754/1256] Building CXX object src\sensors\CMakeFiles\radiancemeter.dir\radiancemeter.cpp.obj
+[755/1256] Building CXX object src\sensors\CMakeFiles\irradiancemeter.dir\irradiancemeter.cpp.obj
+[756/1256] Building CXX object src\sensors\CMakeFiles\distant.dir\distant.cpp.obj
+[757/1256] Building CXX object src\sensors\CMakeFiles\batch.dir\batch.cpp.obj
+[758/1256] Building CXX object src\shapes\CMakeFiles\obj.dir\obj.cpp.obj
+[759/1256] Building CXX object src\sensors\CMakeFiles\thinlens.dir\thinlens.cpp.obj
+[760/1256] Building CXX object src\shapes\CMakeFiles\packed.dir\packed.cpp.obj
+[761/1256] Building CXX object src\shapes\CMakeFiles\serialized.dir\serialized.cpp.obj
+[762/1256] Building CXX object src\shapes\CMakeFiles\ply.dir\ply.cpp.obj
+[763/1256] Building CXX object src\shapes\CMakeFiles\cube.dir\cube.cpp.obj
+[764/1256] Building CXX object src\shapes\CMakeFiles\cylinder.dir\cylinder.cpp.obj
+[765/1256] Building CXX object src\shapes\CMakeFiles\disk.dir\disk.cpp.obj
+[766/1256] Building CXX object src\shapes\CMakeFiles\linearcurve.dir\linearcurve.cpp.obj
+[767/1256] Building CXX object src\shapes\CMakeFiles\shapegroup.dir\shapegroup.cpp.obj
+[768/1256] Building CXX object src\shapes\CMakeFiles\sphere.dir\sphere.cpp.obj
+[769/1256] Building CXX object src\shapes\CMakeFiles\instance.dir\instance.cpp.obj
+[770/1256] Building CXX object src\shapes\CMakeFiles\rectangle.dir\rectangle.cpp.obj
+[771/1256] Building CXX object src\shapes\CMakeFiles\sdfgrid.dir\sdfgrid.cpp.obj
+[772/1256] Building CXX object src\shapes\CMakeFiles\merge.dir\merge.cpp.obj
+[773/1256] Building CXX object src\spectra\CMakeFiles\blackbody.dir\blackbody.cpp.obj
+[774/1256] Building CXX object src\shapes\CMakeFiles\bsplinecurve.dir\bsplinecurve.cpp.obj
+[775/1256] Building CXX object src\spectra\CMakeFiles\d65.dir\d65.cpp.obj
+[776/1256] Building CXX object src\shapes\CMakeFiles\displace.dir\displace.cpp.obj
+[777/1256] Building CXX object src\spectra\CMakeFiles\irregular.dir\irregular.cpp.obj
+[778/1256] Building CXX object src\spectra\CMakeFiles\regular.dir\regular.cpp.obj
+[779/1256] Building CXX object src\spectra\CMakeFiles\rawconstant.dir\rawconstant.cpp.obj
+[780/1256] Building CXX object src\spectra\CMakeFiles\uniform.dir\uniform.cpp.obj
+[781/1256] Building CXX object src\spectra\CMakeFiles\srgb.dir\srgb.cpp.obj
+[782/1256] Building CXX object src\textures\CMakeFiles\checkerboard.dir\checkerboard.cpp.obj
+[783/1256] Building CXX object src\textures\CMakeFiles\lut.dir\lut.cpp.obj
+[784/1256] Building CXX object src\textures\CMakeFiles\mesh_attribute.dir\mesh_attribute.cpp.obj
+[785/1256] Building CXX object src\textures\CMakeFiles\volume.dir\volume.cpp.obj
+[786/1256] Building CXX object src\python\CMakeFiles\nanobind.dir\__\__\ext\nanobind\src\nb_internals.cpp.obj
+[787/1256] Building CXX object src\volumes\CMakeFiles\constvolume.dir\const.cpp.obj
+[788/1256] Building CXX object src\textures\CMakeFiles\math_tex.dir\math.cpp.obj
+[789/1256] Building CXX object src\python\CMakeFiles\nanobind.dir\__\__\ext\nanobind\src\nb_func.cpp.obj
+[790/1256] Building CXX object src\python\CMakeFiles\nanobind.dir\__\__\ext\nanobind\src\nb_type.cpp.obj
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\src\nb_type.cpp(2112): warning C4457: declaration of 'p' hides function parameter
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\src\nb_type.cpp(2097): note: see declaration of 'p'
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\src\nb_type.cpp(2336): warning C4457: declaration of 'p' hides function parameter
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\src\nb_type.cpp(2284): note: see declaration of 'p'
+[791/1256] Building CXX object src\volumes\CMakeFiles\gridvolume.dir\grid.cpp.obj
+[792/1256] Building CXX object src\python\CMakeFiles\nanobind.dir\__\__\ext\nanobind\src\nb_enum.cpp.obj
+[793/1256] Building CXX object src\python\CMakeFiles\nanobind.dir\__\__\ext\nanobind\src\nb_ndarray.cpp.obj
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\src\nb_ndarray.cpp(604): warning C4457: declaration of 'p' hides function parameter
+C:\Users\13243\Desktop\Blender\mitsuba3\ext\nanobind\src\nb_ndarray.cpp(594): note: see declaration of 'p'
+[794/1256] Building CXX object src\textures\CMakeFiles\bitmap.dir\bitmap.cpp.obj
+[795/1256] Building CXX object src\python\CMakeFiles\nanobind.dir\__\__\ext\nanobind\src\nb_static_property.cpp.obj
+[796/1256] Building CXX object src\python\CMakeFiles\nanobind.dir\__\__\ext\nanobind\src\nb_datetime.cpp.obj
+[797/1256] Building CXX object src\python\CMakeFiles\nanobind.dir\__\__\ext\nanobind\src\common.cpp.obj
+[798/1256] Building CXX object src\python\CMakeFiles\nanobind.dir\__\__\ext\nanobind\src\error.cpp.obj
+[799/1256] Linking CXX static library ext\drjit\src\python\nanobind-static.lib
+[800/1256] Building CXX object src\python\CMakeFiles\nanobind.dir\__\__\ext\nanobind\src\trampoline.cpp.obj
+[801/1256] Building CXX object src\python\CMakeFiles\nanobind.dir\__\__\ext\nanobind\src\implicit.cpp.obj
+[802/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\log.cpp.obj
+[803/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\bind.cpp.obj
+[804/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\meta.cpp.obj
+[805/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\main.cpp.obj
+[806/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\iter.cpp.obj
+[807/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\shape.cpp.obj
+[808/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\init.cpp.obj
+[809/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\traits.cpp.obj
+[810/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\eval.cpp.obj
+[811/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\apply.cpp.obj
+[812/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\funcenv.cpp.obj
+[813/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\reduce.cpp.obj
+[814/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\freeze.cpp.obj
+[815/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\base.cpp.obj
+[816/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\freeze_output.cpp.obj
+[817/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\freeze_verify.cpp.obj
+[818/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\freeze_layout.cpp.obj
+[819/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\dlpack.cpp.obj
+[820/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\slice.cpp.obj
+[821/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\inspect.cpp.obj
+[822/1256] Building CXX object src\shapes\CMakeFiles\ellipsoids.dir\ellipsoids.cpp.obj
+[823/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\memop.cpp.obj
+[824/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\autodiff.cpp.obj
+[825/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\switch.cpp.obj
+[826/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\if_stmt.cpp.obj
+[827/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\while_loop.cpp.obj
+[828/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\detail.cpp.obj
+[829/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\profile.cpp.obj
+[830/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\print.cpp.obj
+[831/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\history.cpp.obj
+[832/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\local.cpp.obj
+[833/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\reorder.cpp.obj
+[834/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\tracker.cpp.obj
+[835/1256] Building CXX object src\shapes\CMakeFiles\ellipsoidsmesh.dir\ellipsoidsmesh.cpp.obj
+[836/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\resample.cpp.obj
+[837/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\quad.cpp.obj
+[838/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\coop_vec.cpp.obj
+[839/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\green_context.cpp.obj
+[840/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\metal.cpp.obj
+[841/1256] Building CXX object src\integrators\CMakeFiles\volpathmis.dir\volpathmis.cpp.obj
+[842/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\metal_ad.cpp.obj
+[843/1256] Linking CXX executable ext\rgb2spec\rgb2spec_opt.exe
+[844/1256] Linking CXX shared library Release\plugins\blendbsdf.dll
+[845/1256] Linking CXX shared library Release\plugins\bumpmap.dll
+[846/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\quat.cpp.obj
+[847/1256] Linking CXX shared library Release\plugins\conductor.dll
+[848/1256] Linking CXX shared library Release\plugins\dielectric.dll
+[849/1256] Linking CXX shared library Release\plugins\diffuse.dll
+[850/1256] Linking CXX shared library Release\plugins\hair.dll
+[851/1256] Linking CXX shared library Release\plugins\mask.dll
+[852/1256] Linking CXX shared library Release\plugins\measured.dll
+[853/1256] Linking CXX shared library Release\plugins\normalmap.dll
+[854/1256] Linking CXX shared library Release\plugins\null.dll
+[855/1256] Linking CXX shared library Release\plugins\plastic.dll
+[856/1256] Linking CXX shared library Release\plugins\roughconductor.dll
+[857/1256] Linking CXX shared library Release\plugins\roughdielectric.dll
+[858/1256] Linking CXX shared library Release\plugins\thindielectric.dll
+[859/1256] Linking CXX shared library Release\plugins\roughplastic.dll
+[860/1256] Linking CXX shared library Release\plugins\twosided.dll
+[861/1256] Linking CXX shared library Release\plugins\polarizer.dll
+[862/1256] Linking CXX shared library Release\plugins\retarder.dll
+[863/1256] Linking CXX shared library Release\plugins\circular.dll
+[864/1256] Linking CXX shared library Release\plugins\measured_polarized.dll
+[865/1256] Linking CXX shared library Release\plugins\pplastic.dll
+[866/1256] Linking CXX shared library Release\plugins\principled.dll
+[867/1256] Linking CXX shared library Release\plugins\area.dll
+[868/1256] Linking CXX shared library Release\plugins\principledthin.dll
+[869/1256] Linking CXX shared library Release\plugins\point.dll
+[870/1256] Linking CXX shared library Release\plugins\constant.dll
+[871/1256] Linking CXX shared library Release\plugins\envmap.dll
+[872/1256] Linking CXX shared library Release\plugins\portal.dll
+[873/1256] Linking CXX shared library Release\plugins\directional.dll
+[874/1256] Linking CXX shared library Release\plugins\directionalarea.dll
+[875/1256] Linking CXX shared library Release\plugins\spot.dll
+[876/1256] Linking CXX shared library Release\plugins\projector.dll
+[877/1256] Linking CXX shared library Release\plugins\sunsky.dll
+[878/1256] Linking CXX shared library Release\plugins\timed_sunsky.dll
+[879/1256] Linking CXX shared library Release\plugins\hdrfilm.dll
+[880/1256] Linking CXX shared library Release\plugins\specfilm.dll
+[881/1256] Linking CXX shared library Release\plugins\aov.dll
+[882/1256] Linking CXX shared library Release\plugins\depth.dll
+[883/1256] Linking CXX shared library Release\plugins\direct.dll
+[884/1256] Linking CXX shared library Release\plugins\moment.dll
+[885/1256] Linking CXX shared library Release\plugins\path.dll
+[886/1256] Linking CXX shared library Release\plugins\ptracer.dll
+[887/1256] Linking CXX shared library Release\plugins\stokes.dll
+[888/1256] Linking CXX shared library Release\plugins\volpath.dll
+[889/1256] Linking CXX shared library Release\plugins\homogeneous.dll
+[890/1256] Linking CXX shared library Release\plugins\volpathmis.dll
+[891/1256] Linking CXX shared library Release\plugins\heterogeneous.dll
+[892/1256] Linking CXX shared library Release\plugins\hg.dll
+[893/1256] Linking CXX shared library Release\plugins\isotropic.dll
+[894/1256] Linking CXX shared library Release\plugins\blendphase.dll
+[895/1256] Linking CXX shared library Release\plugins\rayleigh.dll
+[896/1256] Linking CXX shared library Release\plugins\sggx.dll
+[897/1256] Linking CXX shared library Release\plugins\tabphase.dll
+[898/1256] Linking CXX shared library Release\plugins\box.dll
+[899/1256] Linking CXX shared library Release\plugins\tent.dll
+[900/1256] Linking CXX shared library Release\plugins\lanczos.dll
+[901/1256] Linking CXX shared library Release\plugins\mitchell.dll
+[902/1256] Linking CXX shared library Release\plugins\catmullrom.dll
+[903/1256] Linking CXX shared library Release\plugins\gaussian.dll
+[904/1256] Linking CXX shared library Release\plugins\independent.dll
+[905/1256] Linking CXX shared library Release\plugins\stratified.dll
+[906/1256] Linking CXX shared library Release\plugins\multijitter.dll
+[907/1256] Linking CXX shared library Release\plugins\orthogonal.dll
+[908/1256] Linking CXX shared library Release\plugins\ldsampler.dll
+[909/1256] Linking CXX shared library Release\plugins\perspective.dll
+[910/1256] Linking CXX shared library Release\plugins\orthographic.dll
+[911/1256] Linking CXX shared library Release\plugins\radiancemeter.dll
+[912/1256] Linking CXX shared library Release\plugins\thinlens.dll
+[913/1256] Linking CXX shared library Release\plugins\irradiancemeter.dll
+[914/1256] Linking CXX shared library Release\plugins\distant.dll
+[915/1256] Linking CXX shared library Release\plugins\batch.dll
+[916/1256] Linking CXX shared library Release\plugins\obj.dll
+[917/1256] Linking CXX shared library Release\plugins\ply.dll
+[918/1256] Linking CXX shared library Release\plugins\packed.dll
+[919/1256] Linking CXX shared library Release\plugins\serialized.dll
+[920/1256] Linking CXX shared library Release\plugins\cylinder.dll
+[921/1256] Linking CXX shared library Release\plugins\disk.dll
+[922/1256] Linking CXX shared library Release\plugins\rectangle.dll
+[923/1256] Linking CXX shared library Release\plugins\sdfgrid.dll
+[924/1256] Linking CXX shared library Release\plugins\cube.dll
+[925/1256] Linking CXX shared library Release\plugins\sphere.dll
+[926/1256] Linking CXX shared library Release\plugins\bsplinecurve.dll
+[927/1256] Linking CXX shared library Release\plugins\shapegroup.dll
+[928/1256] Linking CXX shared library Release\plugins\linearcurve.dll
+[929/1256] Linking CXX shared library Release\plugins\instance.dll
+[930/1256] Linking CXX shared library Release\plugins\merge.dll
+[931/1256] Linking CXX shared library Release\plugins\displace.dll
+[932/1256] Linking CXX shared library Release\plugins\blackbody.dll
+[933/1256] Linking CXX shared library Release\plugins\ellipsoids.dll
+[934/1256] Linking CXX shared library Release\plugins\ellipsoidsmesh.dll
+[935/1256] Linking CXX shared library Release\plugins\d65.dll
+[936/1256] Linking CXX shared library Release\plugins\irregular.dll
+[937/1256] Linking CXX shared library Release\plugins\regular.dll
+[938/1256] Linking CXX shared library Release\plugins\rawconstant.dll
+[939/1256] Linking CXX shared library Release\plugins\srgb.dll
+[940/1256] Linking CXX shared library Release\plugins\uniform.dll
+[941/1256] Linking CXX shared library Release\plugins\checkerboard.dll
+[942/1256] Linking CXX shared library Release\plugins\bitmap.dll
+[943/1256] Linking CXX shared library Release\plugins\lut.dll
+[944/1256] Linking CXX shared library Release\plugins\math.dll
+[945/1256] Linking CXX shared library Release\plugins\mesh_attribute.dll
+[946/1256] Linking CXX shared library Release\plugins\volume.dll
+[947/1256] Linking CXX shared library Release\plugins\constvolume.dll
+[948/1256] Linking CXX shared library Release\plugins\gridvolume.dll
+[949/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\animated_transform_v.cpp.obj
+[950/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\main_v.cpp.obj
+[951/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\drjit_v.cpp.obj
+[952/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\bsphere_v.cpp.obj
+[953/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\bbox_v.cpp.obj
+[954/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\srect_v.cpp.obj
+[955/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\distr_1d_v.cpp.obj
+[956/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\frame_v.cpp.obj
+[957/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\distr_1d_cond_v.cpp.obj
+[958/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\math_v.cpp.obj
+[959/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\object_v.cpp.obj
+[960/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\qmc_v.cpp.obj
+[961/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\random_v.cpp.obj
+[962/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\rfilter_v.cpp.obj
+[963/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\llvm.cpp.obj
+[964/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\cuda_ad.cpp.obj
+[965/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\spline_v.cpp.obj
+[966/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\ray_v.cpp.obj
+[967/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\spectrum_v.cpp.obj
+[968/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\vector_v.cpp.obj
+[969/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\any.cpp.obj
+[970/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\warp_v.cpp.obj
+[971/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\dedge_v.cpp.obj
+[972/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\bsdf_v.cpp.obj
+[973/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\emitter_v.cpp.obj
+[974/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\endpoint_v.cpp.obj
+[975/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\scalar.cpp.obj
+[976/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\llvm_ad.cpp.obj
+[977/1256] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\cuda.cpp.obj
+[978/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\fresnel_v.cpp.obj
+[979/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\film_v.cpp.obj
+[980/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\imageblock_v.cpp.obj
+[981/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\microflake_v.cpp.obj
+[982/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\mueller_v.cpp.obj
+[983/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\microfacet_v.cpp.obj
+[984/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\medium_v.cpp.obj
+[985/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\optixdenoiser_v.cpp.obj
+[986/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\integrator_v.cpp.obj
+[987/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\transform_v.cpp.obj
+[988/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\postprocess_v.cpp.obj
+[989/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\interaction_v.cpp.obj
+[990/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\sampler_v.cpp.obj
+[991/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\phase_v.cpp.obj
+[992/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\srgb_v.cpp.obj
+[993/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\records_v.cpp.obj
+[994/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\volume_v.cpp.obj
+[995/1256] Linking CXX shared library Release\python\mitsuba\nanobind.dll
+[996/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\texture_v.cpp.obj
+[997/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\volumegrid_v.cpp.obj
+[998/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\sensor_v.cpp.obj
+[999/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\animated_transform_v.cpp.obj
+[1000/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\scene_v.cpp.obj
+[1001/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\main_v.cpp.obj
+[1002/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\bsphere_v.cpp.obj
+[1003/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\srect_v.cpp.obj
+[1004/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\core\python\distr_2d_v.cpp.obj
+[1005/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\drjit_v.cpp.obj
+[1006/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\bbox_v.cpp.obj
+[1007/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\distr_1d_v.cpp.obj
+[1008/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\frame_v.cpp.obj
+[1009/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\object_v.cpp.obj
+[1010/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\math_v.cpp.obj
+[1011/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\qmc_v.cpp.obj
+[1012/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\distr_1d_cond_v.cpp.obj
+[1013/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\random_v.cpp.obj
+[1014/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\rfilter_v.cpp.obj
+[1015/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\vector_v.cpp.obj
+[1016/1256] Building CXX object src\python\CMakeFiles\cuda_ad_rgb.dir\__\render\python\shape_v.cpp.obj
+[1017/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\spectrum_v.cpp.obj
+[1018/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\spline_v.cpp.obj
+[1019/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\any.cpp.obj
+[1020/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\ray_v.cpp.obj
+[1021/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\dedge_v.cpp.obj
+[1022/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\warp_v.cpp.obj
+[1023/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\fresnel_v.cpp.obj
+[1024/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\endpoint_v.cpp.obj
+[1025/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\imageblock_v.cpp.obj
+[1026/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\film_v.cpp.obj
+[1027/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\bsdf_v.cpp.obj
+[1028/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\emitter_v.cpp.obj
+[1029/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\microflake_v.cpp.obj
+[1030/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\mueller_v.cpp.obj
+[1031/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\microfacet_v.cpp.obj
+[1032/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\medium_v.cpp.obj
+[1033/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\optixdenoiser_v.cpp.obj
+[1034/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\integrator_v.cpp.obj
+[1035/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\postprocess_v.cpp.obj
+[1036/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\interaction_v.cpp.obj
+[1037/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\phase_v.cpp.obj
+[1038/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\sampler_v.cpp.obj
+[1039/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\records_v.cpp.obj
+[1040/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\srgb_v.cpp.obj
+[1041/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\transform_v.cpp.obj
+[1042/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\texture_v.cpp.obj
+[1043/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\volume_v.cpp.obj
+[1044/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\volumegrid_v.cpp.obj
+[1045/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\sensor_v.cpp.obj
+[1046/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\animated_transform_v.cpp.obj
+[1047/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\scene_v.cpp.obj
+[1048/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\bsphere_v.cpp.obj
+[1049/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\main_v.cpp.obj
+[1050/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\bbox_v.cpp.obj
+[1051/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\srect_v.cpp.obj
+[1052/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\distr_1d_v.cpp.obj
+[1053/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\drjit_v.cpp.obj
+[1054/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\math_v.cpp.obj
+[1055/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\frame_v.cpp.obj
+[1056/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\object_v.cpp.obj
+[1057/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\distr_1d_cond_v.cpp.obj
+[1058/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\qmc_v.cpp.obj
+[1059/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\random_v.cpp.obj
+[1060/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\distr_2d_v.cpp.obj
+[1061/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\rfilter_v.cpp.obj
+[1062/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\ray_v.cpp.obj
+[1063/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\spectrum_v.cpp.obj
+[1064/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\vector_v.cpp.obj
+[1065/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\spline_v.cpp.obj
+[1066/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\any.cpp.obj
+[1067/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\render\python\shape_v.cpp.obj
+[1068/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\warp_v.cpp.obj
+[1069/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\dedge_v.cpp.obj
+[1070/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\emitter_v.cpp.obj
+[1071/1256] Building CXX object src\python\CMakeFiles\llvm_ad_rgb.dir\__\core\python\distr_2d_v.cpp.obj
+[1072/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\fresnel_v.cpp.obj
+[1073/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\bsdf_v.cpp.obj
+[1074/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\endpoint_v.cpp.obj
+[1075/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\imageblock_v.cpp.obj
+[1076/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\film_v.cpp.obj
+[1077/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\microflake_v.cpp.obj
+[1078/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\core\python\transform_v.cpp.obj
+[1079/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\mueller_v.cpp.obj
+[1080/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\medium_v.cpp.obj
+[1081/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\optixdenoiser_v.cpp.obj
+[1082/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\microfacet_v.cpp.obj
+[1083/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\postprocess_v.cpp.obj
+[1084/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\sampler_v.cpp.obj
+[1085/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\interaction_v.cpp.obj
+[1086/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\phase_v.cpp.obj
+[1087/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\integrator_v.cpp.obj
+[1088/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\srgb_v.cpp.obj
+[1089/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\records_v.cpp.obj
+[1090/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\sensor_v.cpp.obj
+[1091/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\volume_v.cpp.obj
+[1092/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\texture_v.cpp.obj
+[1093/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\volumegrid_v.cpp.obj
+[1094/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\appender.cpp.obj
+[1095/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\main.cpp.obj
+[1096/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\cast.cpp.obj
+[1097/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\argparser.cpp.obj
+[1098/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\filesystem.cpp.obj
+[1099/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\formatter.cpp.obj
+[1100/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\scene_v.cpp.obj
+[1101/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\fresolver.cpp.obj
+[1102/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\logger.cpp.obj
+[1103/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\misc.cpp.obj
+[1104/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\mmap.cpp.obj
+[1105/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\progress.cpp.obj
+[1106/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\packed.cpp.obj
+[1107/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\object.cpp.obj
+[1108/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\bitmap.cpp.obj
+[1109/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\struct.cpp.obj
+[1110/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\rfilter.cpp.obj
+[1111/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\thread.cpp.obj
+[1112/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\timer.cpp.obj
+[1113/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\stream.cpp.obj
+[1114/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\any.cpp.obj
+[1115/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\traverse.cpp.obj
+[1116/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\render\python\dedge.cpp.obj
+[1117/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\render\python\emitter.cpp.obj
+[1118/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\render\python\bsdf.cpp.obj
+[1119/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\render\python\microfacet.cpp.obj
+[1120/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\render\python\shape.cpp.obj
+[1121/1256] Building CXX object src\python\CMakeFiles\scalar_rgb.dir\__\render\python\shape_v.cpp.obj
+[1122/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\render\python\interaction.cpp.obj
+[1123/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\render\python\phase.cpp.obj
+[1124/1256] Generating ../../../../Release/python/drjit/__init__.py
+[1125/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\properties.cpp.obj
+[1126/1256] Generating ../../../../Release/python/drjit/_reduce.py
+[1127/1256] Generating ../../../../Release/python/drjit/_sh_eval.py
+[1128/1256] Generating ../../../../Release/python/drjit/ast.py
+[1129/1256] Generating ../../../../Release/python/drjit/cuda/__init__.py
+[1130/1256] Generating ../../../../Release/python/drjit/config.py
+[1131/1256] Generating ../../../../Release/python/drjit/cuda/ad.py
+[1132/1256] Generating ../../../../Release/python/drjit/dda.py
+[1133/1256] Generating ../../../../Release/python/drjit/detail.py
+[1134/1256] Generating ../../../../Release/python/drjit/hashgrid.py
+[1135/1256] Generating ../../../../Release/python/drjit/interop.py
+[1136/1256] Generating ../../../../Release/python/drjit/llvm/__init__.py
+[1137/1256] Generating ../../../../Release/python/drjit/llvm/ad.py
+[1138/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\render\python\sensor.cpp.obj
+[1139/1256] Generating ../../../../Release/python/drjit/metal/__init__.py
+[1140/1256] Generating ../../../../Release/python/drjit/metal/ad.py
+[1141/1256] Generating ../../../../Release/python/drjit/nn.py
+[1142/1256] Generating ../../../../Release/python/drjit/opt.py
+[1143/1256] Generating ../../../../Release/python/drjit/quad.py
+[1144/1256] Generating ../../../../Release/python/drjit/scalar/__init__.py
+[1145/1256] Generating ../../../../Release/python/drjit/random.py
+[1146/1256] Generating ../../../../Release/python/drjit/scalar/ad.py
+[1147/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\render\python\spiral.cpp.obj
+[1148/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\core\python\parser.cpp.obj
+[1149/1256] Running utility command for copy-targets-drjit
+[1150/1256] Linking CXX shared module Release\python\drjit\_drjit_ext.cp312-win_amd64.pyd
+[1151/1256] Building CXX object src\python\CMakeFiles\mitsuba_ext.dir\__\__\ext\struct-jit\src\python\main.cpp.obj
+[1152/1256] Generating pytest.ini
+[1153/1256] Generating python/mitsuba/__init__.py
+[1154/1256] Linking CXX shared module Release\python\mitsuba\cuda_ad_rgb.cp312-win_amd64.pyd
+[1155/1256] Linking CXX shared module Release\python\mitsuba\scalar_rgb.cp312-win_amd64.pyd
+[1156/1256] Generating python/mitsuba/__main__.py
+[1157/1256] Generating python/mitsuba/config.py
+[1158/1256] Linking CXX shared module Release\python\mitsuba\mitsuba_ext.cp312-win_amd64.pyd
+[1159/1256] Generating srgb.coeff
+Optimizing spectra ................................................................................................................................................................................................ done.
+
+[1160/1256] Generating python/mitsuba/detail.py
+[1161/1256] Generating python/mitsuba/python/__init__.py
+[1162/1256] Generating python/mitsuba/python/ad/__init__.py
+[1163/1256] Generating python/mitsuba/python/ad/guiding.py
+[1164/1256] Generating python/mitsuba/python/ad/integrators/__init__.py
+[1165/1256] Generating python/mitsuba/python/ad/integrators/common.py
+[1166/1256] Generating python/mitsuba/python/ad/integrators/direct_projective.py
+[1167/1256] Linking CXX shared module Release\python\mitsuba\llvm_ad_rgb.cp312-win_amd64.pyd
+[1168/1256] Generating python/mitsuba/python/ad/integrators/prb.py
+[1169/1256] Generating python/mitsuba/python/ad/integrators/prb_basic.py
+[1170/1256] Generating python/mitsuba/python/ad/integrators/prb_projective.py
+[1171/1256] Generating python/mitsuba/python/ad/integrators/prbvolpath.py
+[1172/1256] Generating python/mitsuba/python/ad/integrators/volprim_rf_basic.py
+[1173/1256] Generating python/mitsuba/python/ad/largesteps.py
+[1174/1256] Generating python/mitsuba/python/ad/loaders/__init__.py
+[1175/1256] Generating python/mitsuba/python/ad/loaders/ray_loader.py
+[1176/1256] Generating python/mitsuba/python/ad/optimizers.py
+[1177/1256] Generating python/mitsuba/python/chi2.py
+[1178/1256] Generating python/mitsuba/python/ad/projective.py
+[1179/1256] Generating python/mitsuba/python/math_py.py
+[1180/1256] Generating python/mitsuba/python/pack_tex.py
+[1181/1256] Generating python/mitsuba/python/tensor_io.py
+[1182/1256] Generating python/mitsuba/python/polvis.py
+[1183/1256] Generating python/mitsuba/python/sys_info.py
+[1184/1256] Generating python/mitsuba/python/test/__init__.py
+[1185/1256] Generating python/mitsuba/python/test/util.py
+[1186/1256] Generating python/mitsuba/python/testing.py
+[1187/1256] Generating python/mitsuba/python/util.py
+[1188/1256] Generating python/mitsuba/python/tonemap.py
+[1189/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfImageChannel.cpp.obj
+[1190/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfDeepImageChannel.cpp.obj
+[1191/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfFlatImageChannel.cpp.obj
+[1192/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfSampleCountChannel.cpp.obj
+[1193/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfImageLevel.cpp.obj
+[1194/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfFlatImageLevel.cpp.obj
+[1195/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfFlatImage.cpp.obj
+[1196/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfDeepImage.cpp.obj
+[1197/1256] Generating ../../../../Release/python/drjit/py.typed, ../../../../Release/python/drjit/llvm/py.typed, ../../../../Release/python/drjit/cuda/py.typed, ../../../../Release/python/drjit/__init__.pyi, ../../../../Release/python/drjit/ast.pyi, ../../../../Release/python/drjit/interop.pyi, ../../../../Release/python/drjit/detail.pyi, ../../../../Release/python/drjit/hashgrid.pyi, ../../../../Release/python/drjit/nn.pyi, ../../../../Release/python/drjit/random.pyi, ../../../../Release/python/drjit/quad.pyi, ../../../../Release/python/drjit/scalar/__init__.pyi, ../../../../Release/python/drjit/llvm/__init__.pyi, ../../../../Release/python/drjit/llvm/ad.pyi, ../../../../Release/python/drjit/cuda/__init__.pyi, ../../../../Release/python/drjit/cuda/ad.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[1198/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfImageIO.cpp.obj
+[1199/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfDeepImageLevel.cpp.obj
+[1200/1256] Generating data/srgb.coeff
+[1201/1256] Generating python/mitsuba/data/srgb.coeff
+[1202/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfFlatImageIO.cpp.obj
+[1203/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfImage.cpp.obj
+[1204/1256] Generating setpath.bat
+[1205/1256] Generating setpath.ps1
+[1206/1256] Generating setpath.sh
+[1207/1256] Generating ../../../../Release/python/drjit/auto/py.typed, ../../../../Release/python/drjit/auto/__init__.py, ../../../../Release/python/drjit/auto/ad.py
+[1208/1256] Generating ../../../../Release/python/drjit/auto/__init__.pyi
+[1209/1256] Running utility command for copy-resources
+FAILED: CMakeFiles/copy-resources.util 
+C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\13243\Desktop\Blender\mitsuba3\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/13243/Desktop/Blender/mitsuba3/resources/data/ior C:/Users/13243/Desktop/Blender/mitsuba3/build/Release/data/ior && cd /D C:\Users\13243\Desktop\Blender\mitsuba3\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/13243/Desktop/Blender/mitsuba3/resources/data/ior C:/Users/13243/Desktop/Blender/mitsuba3/build/Release/python/mitsuba/data/ior && cd /D C:\Users\13243\Desktop\Blender\mitsuba3\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/13243/Desktop/Blender/mitsuba3/resources/data/sunsky/output C:/Users/13243/Desktop/Blender/mitsuba3/build/Release/data/sunsky && cd /D C:\Users\13243\Desktop\Blender\mitsuba3\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/13243/Desktop/Blender/mitsuba3/resources/data/sunsky/output C:/Users/13243/Desktop/Blender/mitsuba3/build/Release/python/mitsuba/data/sunsky"
+Error copying directory from "C:/Users/13243/Desktop/Blender/mitsuba3/resources/data/ior" to "C:/Users/13243/Desktop/Blender/mitsuba3/build/Release/data/ior".
+[1210/1256] Generating ../../../../Release/python/drjit/auto/ad.pyi
+[1211/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfImageDataWindow.cpp.obj
+[1212/1256] Building CXX object ext\openexr\OpenEXR\IlmImfUtil\CMakeFiles\IlmImfUtil.dir\ImfDeepImageIO.cpp.obj
+[1213/1256] Building CXX object src\mitsuba\CMakeFiles\mitsuba-bin.dir\mitsuba.cpp.obj
+[1214/1256] Running utility command for copy-targets
+ninja: build stopped: subcommand failed.

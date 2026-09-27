@@ -1,0 +1,152 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.39
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- Mitsuba v3.10.0 
+-- Mitsuba: targeting the native CPU architecture (specify MI_NATIVE_FLAGS to change this).
+-- Mitsuba: building the following variants:
+--  * cuda_ad_rgb
+--  * llvm_ad_rgb
+--  * scalar_rgb
+-- Dr.Jit v1.6.0 dev1
+-- Dr.Jit: building the CUDA backend.
+-- Dr.Jit: building the LLVM backend.
+-- Dr.Jit: *not* building the Metal backend.
+-- Dr.Jit-Core: LLVM will be loaded dynamically at runtime.
+-- Dr.Jit-Core: CUDA will be loaded dynamically at runtime.
+-- Dr.Jit-Core: OptiX support enabled.
+-- Dr.Jit-Core: Metal GPU backend disabled.
+-- Dr.Jit: building the Python plugin.
+-- MSVC detected
+-- Configure ILMBASE Version: 2.5.5 Lib API: 25.0.4
+-- Configure OpenEXR Version: 2.5.5 Lib API: 25.0.4
+-- Could not find an AWK-compatible program
+-- Using standard libconf header: C:/Users/13243/Desktop/Blender/mitsuba3/ext/libpng/scripts/pnglibconf.h.prebuilt
+-- CMAKE_BUILD_TYPE = Release
+-- VERSION = 3.1.4, BUILD = 20260927
+-- 64-bit build (x86_64)
+-- CMAKE_INSTALL_PREFIX = c:/mitsuba64
+-- CMAKE_INSTALL_BINDIR = bin (c:/mitsuba64/bin)
+-- CMAKE_INSTALL_DATAROOTDIR = share (c:/mitsuba64/share)
+-- CMAKE_INSTALL_DOCDIR = share/doc/mitsuba (c:/mitsuba64/share/doc/mitsuba)
+-- CMAKE_INSTALL_INCLUDEDIR = include (c:/mitsuba64/include)
+-- CMAKE_INSTALL_LIBDIR = lib (c:/mitsuba64/lib)
+-- Shared libraries enabled (ENABLE_SHARED = 1)
+-- Static libraries disabled (ENABLE_STATIC = 0)
+-- Arithmetic decoding support enabled (WITH_ARITH_DEC = 1)
+-- Arithmetic encoding support enabled (WITH_ARITH_ENC = 1)
+-- TurboJPEG API library disabled (WITH_TURBOJPEG = 0)
+-- TurboJPEG Java API disabled (WITH_JAVA = 0)
+-- Command-line tools disabled (WITH_TOOLS = 0)
+-- Regression tests disabled (WITH_TESTS = 0)
+-- Emulating libjpeg API/ABI v6.2 (WITH_JPEG7 = 0, WITH_JPEG8 = 0)
+-- libjpeg API shared library version = 62.4.0
+-- Compiler flags = /DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG
+-- Linker flags = /machine:x64 /INCREMENTAL:NO
+-- INLINE = __forceinline (FORCE_INLINE = 1)
+-- THREAD_LOCAL = __declspec(thread)
+-- CMAKE_EXECUTABLE_SUFFIX = .exe
+CMake Warning at ext/libjpeg-turbo/simd/CMakeLists.txt:5 (message):
+  SIMD extensions disabled: could not find NASM compiler.  Performance will
+  suffer.
+Call Stack (most recent call first):
+  ext/libjpeg-turbo/simd/CMakeLists.txt:48 (simd_fail)
+
+
+-- Visual C++ run-time library for libjpeg API DLL: MultiThreadedDLL
+-- Struct-JIT: *not* building the Python plugin.
+-- Tests are disabled. Set FASTFLOAT_TEST to ON to run tests.
+-- Benchmarks are disabled. Set FASTFLOAT_BENCHMARKS to ON to build benchmarks (assumes C++17).
+-- Mitsuba: using OptiX for GPU ray tracing.
+-- Mitsuba: using Embree for CPU ray tracing.
+-- Could NOT find Sphinx (missing: SPHINX_EXECUTABLE) 
+-- Configuring done (2.3s)
+-- Generating done (0.9s)
+-- Build files have been written to: C:/Users/13243/Desktop/Blender/mitsuba3/build
+[1/46] Generating pytest.ini
+[2/46] Running utility command for copy-targets-drjit
+[3/46] Linking CXX shared library bin\IlmImfUtil-mitsuba.dll
+[4/46] Linking CXX executable Release\mitsuba.exe
+[5/46] Running utility command for copy-resources
+[6/46] Running utility command for copy-targets
+[7/46] Generating ../../Release/python/mitsuba/_warp_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[8/46] Generating ../../Release/python/mitsuba/_spline_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[9/46] Generating ../../Release/python/mitsuba/_mueller_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[10/46] Generating ../../Release/python/mitsuba/_filesystem_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[11/46] Generating ../../Release/python/mitsuba/_math_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[12/46] Generating ../../Release/python/mitsuba/_misc_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[13/46] Generating ../../Release/python/mitsuba/_detail_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[14/46] Generating ../../Release/python/mitsuba/py.typed, ../../Release/python/mitsuba/_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[15/46] Generating ../../Release/python/mitsuba/_python/ad_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[16/46] Generating ../../Release/python/mitsuba/_python/ad/guiding_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[17/46] Generating ../../Release/python/mitsuba/_python/ad/largesteps_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[18/46] Generating ../../Release/python/mitsuba/_python/ad/projective_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[19/46] Generating ../../Release/python/mitsuba/_python/ad/loaders/ray_loader_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[20/46] Generating ../../Release/python/mitsuba/_python/chi2_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[21/46] Generating ../../Release/python/mitsuba/_python/ad/integrators/common_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[22/46] Generating ../../Release/python/mitsuba/_python/math_py_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[23/46] Generating ../../Release/python/mitsuba/_python/util_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[24/46] Generating ../../Release/python/mitsuba/_python/tensor_io_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[25/46] Generating ../../Release/python/mitsuba/_python/testing_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[26/46] Generating ../../Release/python/mitsuba/_parser_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[27/46] Generating ../../Release/python/mitsuba/detail.pyi
+[28/46] Generating ../../Release/python/mitsuba/filesystem.pyi
+[29/46] Generating ../../Release/python/mitsuba/math.pyi
+[30/46] Generating ../../Release/python/mitsuba/misc.pyi
+[31/46] Generating ../../Release/python/mitsuba/mueller.pyi
+[32/46] Generating ../../Release/python/mitsuba/parser.pyi
+[33/46] Generating ../../Release/python/mitsuba/python/ad.pyi
+[34/46] Generating ../../Release/python/mitsuba/python/ad/guiding.pyi
+[35/46] Generating ../../Release/python/mitsuba/__init__.pyi
+[36/46] Generating ../../Release/python/mitsuba/python/ad/integrators/common.pyi
+[37/46] Generating ../../Release/python/mitsuba/python/ad/largesteps.pyi
+[38/46] Generating ../../Release/python/mitsuba/python/ad/loaders/ray_loader.pyi
+[39/46] Generating ../../Release/python/mitsuba/python/ad/projective.pyi
+[40/46] Generating ../../Release/python/mitsuba/python/chi2.pyi
+[41/46] Generating ../../Release/python/mitsuba/python/math_py.pyi
+[42/46] Generating ../../Release/python/mitsuba/python/tensor_io.pyi
+[43/46] Generating ../../Release/python/mitsuba/python/testing.pyi
+[44/46] Generating ../../Release/python/mitsuba/python/util.pyi
+[45/46] Generating ../../Release/python/mitsuba/spline.pyi
+[46/46] Generating ../../Release/python/mitsuba/warp.pyi

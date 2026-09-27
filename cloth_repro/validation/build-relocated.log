@@ -1,0 +1,202 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.39
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+-- Mitsuba v3.10.0 
+-- Mitsuba: targeting the native CPU architecture (specify MI_NATIVE_FLAGS to change this).
+-- Found Python: C:\Users\13243\Desktop\Blender\mitsuba3\cloth_repro\validation\.venv\Scripts\python.exe (found suitable version "3.12.14", minimum required is "3.8") found components: Interpreter Development.Module Development.SABIModule
+-- Mitsuba: building the following variants:
+--  * cuda_ad_rgb
+--  * llvm_ad_rgb
+--  * scalar_rgb
+-- Dr.Jit v1.6.0 dev1
+-- Dr.Jit: building the CUDA backend.
+-- Dr.Jit: building the LLVM backend.
+-- Dr.Jit: *not* building the Metal backend.
+-- Dr.Jit-Core: LLVM will be loaded dynamically at runtime.
+-- Dr.Jit-Core: CUDA will be loaded dynamically at runtime.
+-- Dr.Jit-Core: OptiX support enabled.
+-- Dr.Jit-Core: Metal GPU backend disabled.
+-- Dr.Jit: building the Python plugin.
+-- MSVC detected
+-- Configure ILMBASE Version: 2.5.5 Lib API: 25.0.4
+-- Configure OpenEXR Version: 2.5.5 Lib API: 25.0.4
+-- Could not find an AWK-compatible program
+-- Using standard libconf header: C:/Users/13243/Desktop/Blender/mitsuba3/ext/libpng/scripts/pnglibconf.h.prebuilt
+-- CMAKE_BUILD_TYPE = Release
+-- VERSION = 3.1.4, BUILD = 20260927
+-- 64-bit build (x86_64)
+-- CMAKE_INSTALL_PREFIX = c:/mitsuba64
+-- CMAKE_INSTALL_BINDIR = bin (c:/mitsuba64/bin)
+-- CMAKE_INSTALL_DATAROOTDIR = share (c:/mitsuba64/share)
+-- CMAKE_INSTALL_DOCDIR = share/doc/mitsuba (c:/mitsuba64/share/doc/mitsuba)
+-- CMAKE_INSTALL_INCLUDEDIR = include (c:/mitsuba64/include)
+-- CMAKE_INSTALL_LIBDIR = lib (c:/mitsuba64/lib)
+-- Shared libraries enabled (ENABLE_SHARED = 1)
+-- Static libraries disabled (ENABLE_STATIC = 0)
+-- Arithmetic decoding support enabled (WITH_ARITH_DEC = 1)
+-- Arithmetic encoding support enabled (WITH_ARITH_ENC = 1)
+-- TurboJPEG API library disabled (WITH_TURBOJPEG = 0)
+-- TurboJPEG Java API disabled (WITH_JAVA = 0)
+-- Command-line tools disabled (WITH_TOOLS = 0)
+-- Regression tests disabled (WITH_TESTS = 0)
+-- Emulating libjpeg API/ABI v6.2 (WITH_JPEG7 = 0, WITH_JPEG8 = 0)
+-- libjpeg API shared library version = 62.4.0
+-- Compiler flags = /DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG
+-- Linker flags = /machine:x64 /INCREMENTAL:NO
+-- INLINE = __forceinline (FORCE_INLINE = 1)
+-- THREAD_LOCAL = __declspec(thread)
+-- CMAKE_EXECUTABLE_SUFFIX = .exe
+CMake Warning at ext/libjpeg-turbo/simd/CMakeLists.txt:5 (message):
+  SIMD extensions disabled: could not find NASM compiler.  Performance will
+  suffer.
+Call Stack (most recent call first):
+  ext/libjpeg-turbo/simd/CMakeLists.txt:48 (simd_fail)
+
+
+-- Visual C++ run-time library for libjpeg API DLL: MultiThreadedDLL
+-- Struct-JIT: *not* building the Python plugin.
+-- Tests are disabled. Set FASTFLOAT_TEST to ON to run tests.
+-- Benchmarks are disabled. Set FASTFLOAT_BENCHMARKS to ON to build benchmarks (assumes C++17).
+-- Mitsuba: using OptiX for GPU ray tracing.
+-- Mitsuba: using Embree for CPU ray tracing.
+-- Could NOT find Sphinx (missing: SPHINX_EXECUTABLE) 
+-- Configuring done (2.7s)
+-- Generating done (1.1s)
+-- Build files have been written to: C:/Users/13243/Desktop/Blender/mitsuba3/build
+[1/93] Generating docstr.h
+[2/93] Generating pytest.ini
+[3/93] Generating python/mitsuba/config.py
+[4/93] Running utility command for copy-targets-drjit
+[5/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\log.cpp.obj
+[6/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\bind.cpp.obj
+[7/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\meta.cpp.obj
+[8/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\main.cpp.obj
+[9/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\iter.cpp.obj
+[10/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\init.cpp.obj
+[11/93] Running utility command for copy-resources
+[12/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\shape.cpp.obj
+[13/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\traits.cpp.obj
+[14/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\eval.cpp.obj
+[15/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\funcenv.cpp.obj
+[16/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\apply.cpp.obj
+[17/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\freeze.cpp.obj
+[18/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\freeze_output.cpp.obj
+[19/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\freeze_layout.cpp.obj
+[20/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\freeze_verify.cpp.obj
+[21/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\reduce.cpp.obj
+[22/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\base.cpp.obj
+[23/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\slice.cpp.obj
+[24/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\inspect.cpp.obj
+[25/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\dlpack.cpp.obj
+[26/93] Running utility command for copy-targets
+[27/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\memop.cpp.obj
+[28/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\switch.cpp.obj
+[29/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\autodiff.cpp.obj
+[30/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\detail.cpp.obj
+[31/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\if_stmt.cpp.obj
+[32/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\while_loop.cpp.obj
+[33/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\profile.cpp.obj
+[34/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\print.cpp.obj
+[35/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\reorder.cpp.obj
+[36/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\history.cpp.obj
+[37/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\local.cpp.obj
+[38/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\tracker.cpp.obj
+[39/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\quad.cpp.obj
+[40/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\resample.cpp.obj
+[41/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\coop_vec.cpp.obj
+[42/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\metal.cpp.obj
+[43/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\metal_ad.cpp.obj
+[44/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\quat.cpp.obj
+[45/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\llvm.cpp.obj
+[46/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\llvm_ad.cpp.obj
+[47/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\cuda_ad.cpp.obj
+[48/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\cuda.cpp.obj
+[49/93] Building CXX object ext\drjit\src\python\CMakeFiles\drjit-python.dir\scalar.cpp.obj
+[50/93] Linking CXX shared module Release\python\drjit\_drjit_ext.cp312-win_amd64.pyd
+[51/93] Generating ../../Release/python/mitsuba/_math_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[52/93] Generating ../../Release/python/mitsuba/_spline_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[53/93] Generating ../../Release/python/mitsuba/_mueller_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[54/93] Generating ../../Release/python/mitsuba/_detail_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[55/93] Generating ../../Release/python/mitsuba/_misc_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[56/93] Generating ../../Release/python/mitsuba/_warp_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[57/93] Generating ../../../../Release/python/drjit/py.typed, ../../../../Release/python/drjit/llvm/py.typed, ../../../../Release/python/drjit/cuda/py.typed, ../../../../Release/python/drjit/__init__.pyi, ../../../../Release/python/drjit/ast.pyi, ../../../../Release/python/drjit/interop.pyi, ../../../../Release/python/drjit/detail.pyi, ../../../../Release/python/drjit/hashgrid.pyi, ../../../../Release/python/drjit/nn.pyi, ../../../../Release/python/drjit/random.pyi, ../../../../Release/python/drjit/quad.pyi, ../../../../Release/python/drjit/scalar/__init__.pyi, ../../../../Release/python/drjit/llvm/__init__.pyi, ../../../../Release/python/drjit/llvm/ad.pyi, ../../../../Release/python/drjit/cuda/__init__.pyi, ../../../../Release/python/drjit/cuda/ad.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[58/93] Generating ../../Release/python/mitsuba/py.typed, ../../Release/python/mitsuba/_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[59/93] Generating ../../Release/python/mitsuba/_filesystem_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[60/93] Generating ../../Release/python/mitsuba/_python/ad_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[61/93] Generating ../../Release/python/mitsuba/_python/ad/guiding_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[62/93] Generating ../../Release/python/mitsuba/_python/ad/largesteps_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[63/93] Generating ../../Release/python/mitsuba/_python/ad/projective_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[64/93] Generating ../../Release/python/mitsuba/_python/ad/loaders/ray_loader_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[65/93] Generating ../../Release/python/mitsuba/_python/ad/integrators/common_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[66/93] Generating ../../Release/python/mitsuba/_python/chi2_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[67/93] Generating ../../../../Release/python/drjit/auto/__init__.pyi
+[68/93] Generating ../../../../Release/python/drjit/auto/ad.pyi
+[69/93] Generating ../../Release/python/mitsuba/_python/math_py_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[70/93] Generating ../../Release/python/mitsuba/_python/util_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[71/93] Generating ../../Release/python/mitsuba/_python/tensor_io_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[72/93] Generating ../../Release/python/mitsuba/_python/testing_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[73/93] Generating ../../Release/python/mitsuba/_parser_stubs.pyi
+jitc_llvm_init(): LLVM API initialization failed ..
+
+[74/93] Generating ../../Release/python/mitsuba/detail.pyi
+[75/93] Generating ../../Release/python/mitsuba/filesystem.pyi
+[76/93] Generating ../../Release/python/mitsuba/math.pyi
+[77/93] Generating ../../Release/python/mitsuba/misc.pyi
+[78/93] Generating ../../Release/python/mitsuba/mueller.pyi
+[79/93] Generating ../../Release/python/mitsuba/parser.pyi
+[80/93] Generating ../../Release/python/mitsuba/python/ad.pyi
+[81/93] Generating ../../Release/python/mitsuba/python/ad/guiding.pyi
+[82/93] Generating ../../Release/python/mitsuba/python/ad/integrators/common.pyi
+[83/93] Generating ../../Release/python/mitsuba/python/ad/largesteps.pyi
+[84/93] Generating ../../Release/python/mitsuba/__init__.pyi
+[85/93] Generating ../../Release/python/mitsuba/python/ad/loaders/ray_loader.pyi
+[86/93] Generating ../../Release/python/mitsuba/python/ad/projective.pyi
+[87/93] Generating ../../Release/python/mitsuba/python/chi2.pyi
+[88/93] Generating ../../Release/python/mitsuba/python/math_py.pyi
+[89/93] Generating ../../Release/python/mitsuba/python/tensor_io.pyi
+[90/93] Generating ../../Release/python/mitsuba/python/testing.pyi
+[91/93] Generating ../../Release/python/mitsuba/python/util.pyi
+[92/93] Generating ../../Release/python/mitsuba/spline.pyi
+[93/93] Generating ../../Release/python/mitsuba/warp.pyi

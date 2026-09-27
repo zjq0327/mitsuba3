@@ -1,0 +1,6 @@
+jitc_llvm_init(): LLVM API initialization failed ..
+scalar_rgb RENDER PASSED {'shape': [256, 256, 3], 'mean': 0.14709830284118652, 'min': 0.0, 'max': 18.689189910888672, 'seconds_including_load_compile_and_save': 0.3770325999939814}
+cuda_ad_rgb RENDER PASSED {'shape': [256, 256, 3], 'mean': 0.14720642566680908, 'min': 0.0, 'max': 18.66331672668457, 'seconds_including_load_compile_and_save': 0.4538116000185255}
+cuda_ad_rgb CUSTOM BSDF PASSED
+llvm_ad_rgb UNAVAILABLE
+Validation complete: C:\Users\13243\Desktop\Blender\mitsuba3\cloth_repro\validation\results\report.json
